@@ -5,4 +5,8 @@
 class Pupil extends Eloquent {
       // let eloquent know that these attributes will be availible for mass assignment
       protected $fillable = array();
+
+      public function workshop() {
+      	     return $this->hasOne('Workshop');
+      }
 }
