@@ -32,7 +32,7 @@ class CreateWorkshopsTable extends Migration {
 	 */
 	public function down()
 	{
-		Schema::drop('workshop');
+		Schema::drop('workshops');
 	}
 
 }

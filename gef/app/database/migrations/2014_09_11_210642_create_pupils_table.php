@@ -15,10 +15,12 @@ class CreatePupilsTable extends Migration {
 		Schema::create('pupils', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('pupilid', 5)->unique();
+			$table->string('pupilid', 5);
 			$table->string('firstname');
 			$table->string('lastname');
 			$table->boolean('havework')->default(false);
+                        $table->integer('workshop_id')->unsigned();
+			$table->foreign('workshop_id')->references('id')->on('workshops');
 			$table->timestamps();
 		});
 	}
