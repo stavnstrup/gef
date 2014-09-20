@@ -3,11 +3,14 @@
 @extends('layouts.oeggef')
 
 @section('body')
-  <p>Welcome to OEG GEF</p>
+  <h1>Welcome to OEG GEF</h1>
 
-  <ol>
+  <ul class="smallsmall-block-grid-2 medium-block-grid-3 large-block-grid-4">
   @foreach($workshops as $ws)
   <li>{{ $ws->name }} ({{$ws->freeplaces}})</li>
   @endforeach
-  </ol>
+  </ul>
+
+<p><a href="/">Tilbage til forsiden</a></p>
+
 @stop

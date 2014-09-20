@@ -24,4 +24,7 @@
       @endforeach
     </table>
   @endif
+
+<p><a href="/">Tilbage til forsiden</a></p>
+
 @stop
