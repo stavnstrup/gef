@@ -47,7 +47,7 @@ Route::get('tilmelding', function()
 Route::post('tilmelding', array('before' => 'csrf', function()
 {
     $rules = array (
-        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s?[0-3][0-9]$/',
+        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'wid' => 'required'

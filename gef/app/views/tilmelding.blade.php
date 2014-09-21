@@ -18,7 +18,7 @@
 <p>
    {{ Form::label('pupilid', 'ElevId') }}
    {{ Form::text('pupilid','' ,array('size' => '5')) }}
-   <span> ElevId skrives som f.eks. '1a14' eller '1a 14'</span> 
+   <span> ElevId skrives som f.eks. '1a 14'</span> 
 </p>
 
 <p>
