@@ -12,9 +12,18 @@ Route::get('/', function()
 // list all workshops
 Route::get('alle', function()
 {
-	$workshops =  Workshop::get(array('name','freeplaces'));
+	$workshops =  Workshop::get(array('id', 'name','freeplaces'));
 	return View::make('home', compact('workshops'));
 });
+
+
+Route::get('workshop/{wid}', function($wid)
+{
+	$ws =  Workshop::find($wid);
+// return var_dump($ws);
+	return View::make('workshop', compact('ws'));
+});
+
 
 
 // List all tilmeldinger
@@ -23,6 +32,17 @@ Route::get('tilmeldinger', function()
     $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
     return View::make('tilmeldinger', compact('pupils'));
 });
+
+
+// List all tilmeldinger2
+Route::get('tilmeldinger2', function()
+{
+    $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
+    return View::make('tilmeldinger2', compact('pupils'));
+});
+
+
+
 
 // Vis alle tilmeldinger for workshop
 Route::get('tilmelding1/{wid}', function()
@@ -42,7 +62,6 @@ Route::get('tilmelding', function()
 
 
 // Create new tilmelding
-
 
 Route::post('tilmelding', array('before' => 'csrf', function()
 {
