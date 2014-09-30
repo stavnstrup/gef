@@ -1,0 +1,32 @@
+.header {
+  width: 100%;
+  margin-top: 30px;
+  border-top, border-bottom: 1px solid #f6f6f6;
+}
+
+
+h1.logotype {
+  font-family: "Avant Garde Gothic Bold" , sans-serif;
+  margin: 12px 0 10px 0;
+  font-size: 2.08em;
+  color: #2ea4c0;
+}
+
+
+h1.logotype a:link, h1.logotype a:visited {
+  text-decoration: none;
+}
+
+
+.block {
+  margin-top: 20px;
+  background-color: lightgreen;
+  height: 100px;
+}
+
+.pladser {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 0 5px;
+}
