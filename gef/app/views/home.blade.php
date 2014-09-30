@@ -7,7 +7,8 @@
 
   <ul class="smallsmall-block-grid-2 medium-block-grid-3 large-block-grid-4">
   @foreach($workshops as $ws)
-  <li><a href="/workshop/{{$ws->id}}">{{ $ws->name }}</a> ({{$ws->freeplaces}} pladser)</li>
+  <li><a href="/workshop/{{$ws->id}}">{{ $ws->name }}</a>
+   <div class="pladser">{{$ws->freeplaces}} pladser</div></li>
   @endforeach
   </ul>
 
