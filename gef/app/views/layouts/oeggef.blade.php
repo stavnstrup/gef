@@ -6,18 +6,18 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
-  <link rel="stylesheet" href="css/foundation.css" />
-  <link rel="stylesheet" href="css/gef.css" />
-  <script src="js/vendor/modernizr.js"></script>
+  <link rel="stylesheet" href="{{asset('css/foundation.css')}}" />
+  <link rel="stylesheet" href="{{asset('css/gef.css')}}" />
+  <script src="{{asset('js/vendor/modernizr.js')}}"></script>
 </head>
 <body>
   <div class="header">
     <div class="row">
       <div class="small-12 columns">
         <h1 class="logotype">
-          <a href="/" title="Hjem"><img src="img/logo.png" alt="Hjem" />
+          <a href="/" title="Hjem"><img src="{{asset('img/logo.png')}}" alt="Hjem" />
           </a>
-          <a class="site-name" title="Hjem">Ørestad Gymnasium</a>
+          <a href="/" class="site-name" title="Hjem">Ørestad Gymnasium - Gør en forskel</a>
         </h1>
       </div>
     </div>
@@ -25,8 +25,8 @@
   
   @yield('body')
 
-  <script src="js/vendor/jquery.js"></script>
-  <script src="js/foundation.min.js"></script>
+  <script src="{{asset('js/vendor/jquery.js')}}"></script>
+  <script src="{{asset('js/foundation.min.js')}}"></script>
   <script>
     $(document).foundation();
   </script>

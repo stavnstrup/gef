@@ -1,9 +1,16 @@
 .header {
-  width: 100%;
-  margin-top: 30px;
-  border-top, border-bottom: 1px solid #f6f6f6;
+   width: 100%;
+   margin-top: 30px;
+   font-weight: bold;
+   border-top, border-bottom: 1px solid #f6f6f6;
 }
 
+.block a { color: black;}
+
+
+.wsblocks {
+  background-color: #f7f6f4;
+}
 
 h1.logotype {
   font-family: "Avant Garde Gothic Bold" , sans-serif;
@@ -19,9 +26,12 @@ h1.logotype a:link, h1.logotype a:visited {
 
 
 .block {
+  font-weight: bold;
   margin-top: 20px;
-  background-color: lightgreen;
+  padding: 20px 10px 0;
   height: 100px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .pladser {
@@ -30,3 +40,11 @@ h1.logotype a:link, h1.logotype a:visited {
     text-align: right;
     padding: 0 5px;
 }
+
+
+.c1 { background-color: #f1d92a; } /* yellow */
+.c2 { background-color: #e679ba; } /* pink */
+.c3 { background-color: #e24f21; } /* orange */
+.c4 { background-color: #32b1cf; } /* blue */
+.c5 { background-color: #4db068; } /* green */
+.c0, .c6 { background-color: #ffffff; } /* white */

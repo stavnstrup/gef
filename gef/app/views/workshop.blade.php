@@ -3,12 +3,19 @@
 @extends('layouts.oeggef')
 
 @section('body')
-  <h1>Workshop {{$ws->id}}: {{$ws->name}}</h1>
+
+  <div class="row">
+    <div class="small-12">
+
+      <div class="wsheader">
+        <h2>Workshop {{$ws->id}}</h2>
+        <h2 class="subheader">{{$ws->name}}</h2>
+      </div>
+      
+      <p>{{$ws->description}}</p>
 
 
-  <p>{{$ws->description}}</p>
-
-
-<p><a href="/">Tilbage til forsiden</a></p>
-
+      <p><a href="/">Tilbage til forsiden</a></p>
+    </div>
+  </div>
 @stop

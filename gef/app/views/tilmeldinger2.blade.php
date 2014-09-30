@@ -3,8 +3,13 @@
 @extends('layouts.oeggef')
 
 @section('body')
-  <h1>Alle tilmeldinger</h1>
 
+<div class="row">
+  <div class="small-12">
+
+  <h2>GEF tilmeldinger</h2>
+
+  <p>Antal tilmeldte: {{$pupils->count()}}</p>
 
   @if ($pupils->count() > 0)
     <table>
@@ -25,6 +30,10 @@
     </table>
   @endif
 
-<p><a href="/">Tilbage til forsiden</a></p>
+  <p><a href="/">Tilbage til forsiden</a></p>
+
+  </div>
+</div>
+
 
 @stop

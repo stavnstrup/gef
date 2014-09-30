@@ -3,7 +3,11 @@
 @extends('layouts.oeggef')
 
 @section('body')
-  <h1>Tilmelding til workshop</h1>
+
+<div class="row">
+  <div class="small-12 columns">
+
+  <h2>Tilmelding til workshop</h2>
 
 {{ Form::open(array('url' => 'tilmelding')) }}
 
@@ -41,5 +45,9 @@
 
 
 <p><a href="/">Tilbage til forsiden</a></p>
+
+
+</div>
+</div>
 
 @stop
