@@ -10,6 +10,7 @@
       <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
         @foreach($workshops as $ws)
         <li>
+          <div class="wsno c{{$ws->id % 6}}">Workshop {{$ws->id}}</div>
           <div class="block c{{$ws->id % 6}}"><a href="/workshop/{{$ws->id}}">{{ $ws->name }}</a></div>
           @if ($ws->freeplaces > 0)
             <div class="pladser">{{$ws->freeplaces}} pladser</div>
@@ -22,6 +23,12 @@
     </div>
   </div>
 </div>
-<p><a href="/">Tilbage til forsiden</a></p>
+
+<div class="row">
+  <div class="small-12 columns">
+    <p><a href="/">Tilbage til forsiden</a></p>
+  </div>
+</div>
+
 
 @stop

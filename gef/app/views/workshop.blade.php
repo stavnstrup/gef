@@ -9,8 +9,8 @@
 
       <div class="wsheader">
         <h2>Workshop {{$ws->id}}</h2>
-        <h2 class="subheader">{{$ws->name}}</h2>
       </div>
+      <h2 class="subheader">{{$ws->name}}</h2>
       
       <p>{{$ws->description}}</p>
 
