@@ -85,7 +85,8 @@ class WorkshopTableSeeder extends Seeder
 			'name' => 'Café Retro og spisehuset Rub og Stub',
 			'description' => '',
 			'teaser_image' => '',
-			'freeplaces' => 2,
+			'freeplaces' => 10,
+                        'isODworkshop' => true,
                         'speaker' => '',
                         'uri' => '',
 		));
