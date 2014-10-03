@@ -11,19 +11,9 @@ class WorkshopTableSeeder extends Seeder
                 // Workshop 1
 		Workshop::create(array(
 			'name' => 'Afrikansk dans og trommespil og Frivillig i Ghana',
-			'description' => 'Deltag i denne workshop,
-                         hvis du vil lære ægte afrikansk dans og
-                         trommespil. I programmet er der også et oplæg
-                         om, hvordan man kan blive frivillig i
-                         Ghana. Som der står på sitet
-                         afrikanskdansk.dk: \"Frivillig i Ghana - en
-                         Rejse for Livet. Vil du på Eventyr? Rejs ud i
-                         verden - og gør en forskel. Har du lyst til
-                         at komme til Afrika, er Ghana et godt valg\".
-                         På OEG gør en forskel-dagen skal du dog først
-                         og fremmest danse og spille på tromme og være
-                         glad sammen med en danser og en
-                         trommespiller!',
+			'description' => 'Deltag i denne workshop, hvis du vil lære ægte afrikansk dans og trommespil. I programmet er der også et oplæg om, hvordan man kan blive frivillig i Ghana. Som der står på sitet afrikanskdansk.dk: “Frivillig i Ghana - en Rejse for Livet. Vil du på Eventyr? Rejs ud i verden - og gør en forskel. Har du lyst til at komme til Afrika, er Ghana et godt valg”. 
+
+På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på tromme og være glad sammen med en danser og en trommespiller!',
 			'teaser_image' => 'afrikansk-dans',
 			'freeplaces' => 2,
                         'speaker' => 'Anders Andersen',

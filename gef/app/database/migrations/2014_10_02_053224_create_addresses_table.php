@@ -16,9 +16,9 @@ class CreateAddressesTable extends Migration {
 		{
 			$table->increments('id');
 			$table->boolean('havework');
-			$table->text('address');
-			$table->integer('zip');
-			$table->string('town');
+			$table->integer('phone')->unsigned();
+			$table->string('email');
+                        $table->string('workplace');
 			$table->integer('pupil_id')->unsigned();
 			$table->foreign('pupil_id')->references('id')->on('pupils');
 			$table->timestamps();

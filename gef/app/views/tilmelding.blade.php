@@ -7,37 +7,54 @@
 <div class="row">
   <div class="small-12 columns">
 
-  <h2>Tilmelding til workshop</h2>
+  <h2>Tilmelding til workshop # {{$ws->id}}</h2>
+  <h2 class='subheader'>{{$ws->name}}</h2>
 
 {{ Form::open(array('url' => 'tilmelding')) }}
 
 
-<ul class="errors">
-@foreach($errors->all() as $message)
-<li>{{ $message }}</li>
-@endforeach
-</ul
+<div class="row">
+@if ($errors->has('pupilid'))
+  <div class="large-3 columns end error">
+@else
+  <div class="large-3 columns end">
+@endif
+    {{ Form::label('pupilid', 'Klasse') }}
+    {{ Form::text('pupilid', '', array('size' => '2', 'placeholder' => '1a')) }}
+@if ($errors->has('pupilid'))
+    <small class="error">{{ $errors->first('pupilid') }}</small>
+@endif
+  </div>
+</div>
 
-  
-<p>
-   {{ Form::label('pupilid', 'ElevId') }}
-   {{ Form::text('pupilid','' ,array('size' => '5')) }}
-   <span> ElevId skrives som f.eks. '1a 04'</span> 
-</p>
+<div class="row">
+@if ($errors->has('firstname'))
+  <div class="large-6 columns error">
+@else
+  <div class="large-6 columns">
+@endif
+    {{ Form::label('firstname', 'Fornavn') }}
+    {{ Form::text('firstname', '', array('placeholder' => 'Isak')) }}
+@if ($errors->has('firstname'))
+    <small class="error">{{ $errors->first('firstname') }}</small>
+@endif
+  </div>
 
-<p>
-   {{ Form::label('firstname', 'Fornavn') }}
-   {{ Form::text('firstname') }}
-</p>
-<p>
-   {{ Form::label('lastname', 'Efternavn') }}
-   {{ Form::text('lastname') }}
-</p>
-<p>
+@if ($errors->has('lastname'))
+  <div class="large-6 columns error">
+@else
+  <div class="large-6 columns">
+@endif
+    {{ Form::label('lastname', 'Efternavn') }}
+    {{ Form::text('lastname', '', array('placeholder' => 'Sponholtz')) }}
+@if ($errors->has('lastname'))
+    <small class="error">{{ $errors->first('lastname') }}</small>
+@endif
+  </div>
+</div>
 
-   {{ Form::label('wid', 'Workshop') }}
-   {{ Form::select('wid', $names) }}
-</p>
+
+
 <p>
    {{ Form::submit('Tilmeld') }}
 </p>

@@ -15,6 +15,14 @@
       <p>{{$ws->description}}</p>
 
 
+@if ($ws->isODworkshop)
+  <a href="/tilmelding/dagsvaerk" class="button">
+@else
+  <a href="/tilmelding/{{$ws->id}}" class="button">
+@endif
+Jeg vil gerne<br/>tilmelde mig denne workshop</a></p>
+
+
       <p><a href="/">Tilbage til forsiden</a></p>
     </div>
   </div>
