@@ -19,6 +19,10 @@ class CreatePupilsTable extends Migration {
 			$table->string('firstname');
 			$table->string('lastname');
 			$table->boolean('ODselected')->default(false);
+			$table->boolean('havework');
+			$table->integer('phone')->unsigned();
+			$table->string('email');
+                        $table->string('workplace');
                         $table->integer('workshop_id')->unsigned();
 			$table->foreign('workshop_id')->references('id')->on('workshops');
 			$table->timestamps();

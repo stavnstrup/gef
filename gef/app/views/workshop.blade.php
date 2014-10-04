@@ -10,13 +10,16 @@
       <div class="wsheader">
         <h2>Workshop {{$ws->id}}</h2>
       </div>
-      <h2 class="subheader">{{$ws->name}}</h2>
+      <h2 class="subheader">{{$ws->title}}</h2>
+      <h3 class="subheader">{{$ws->subtitle}}</h3>
       
       <p>{{$ws->description}}</p>
 
 
-@if ($ws->isODworkshop)
-  <a href="/tilmelding/dagsvaerk" class="button">
+@if ($ws->id == 6)
+  <a href="/od/tilmelding/har/arbejde/" class="button">
+@elseif ($ws->id == 7)
+  <a href="/od/tilmelding/har/ikke/arbejde/" class="button">
 @else
   <a href="/tilmelding/{{$ws->id}}" class="button">
 @endif

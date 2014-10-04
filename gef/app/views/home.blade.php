@@ -11,7 +11,7 @@
         @foreach($workshops as $ws)
         <li>
           <div class="wsno c{{$ws->id % 6}}">Workshop {{$ws->id}}</div>
-          <div class="block c{{$ws->id % 6}}"><a href="/workshop/{{$ws->id}}">{{ $ws->name }}</a></div>
+          <div class="block c{{$ws->id % 6}}"><a href="/workshop/{{$ws->id}}">{{ $ws->title }}</a></div>
           @if ($ws->freeplaces > 0)
             <div class="pladser">{{$ws->freeplaces}} pladser</div>
           @else

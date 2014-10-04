@@ -15,11 +15,11 @@ class CreateWorkshopsTable extends Migration {
 		Schema::create('workshops', function(Blueprint $table)
 		{
 			$table->increments('id');
-			$table->string('name');
+			$table->string('title');
+			$table->string('subtitle');
                         $table->longText('description');
 			$table->string('teaser_image');
 			$table->integer('freeplaces');
-			$table->string('speaker');
 			$table->string('uri');
 			$table->timestamps();
 		});

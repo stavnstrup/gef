@@ -1,4 +1,4 @@
-{{-- app/views/odtilmelding.blade.php --}}
+{{-- app/views/odtilmeldinghavework.blade.php --}}
 
 @extends('layouts.oeggef')
 
@@ -84,6 +84,19 @@
   </div>
 </div>
 
+<div class="row">
+@if ($errors->has('workplace'))
+  <div class="large-12 columns error">
+@else
+  <div class="large-12 columns">
+@endif
+    {{ Form::label('worksplace', 'Hvilken arbejdsplads vil jeg selv finde') }}
+    {{ Form::textarea('workplace')}}
+@if ($errors->has('workplace'))
+    <small class="error">{{ $errors->first('workplace') }}</small>
+@endif
+  </div>
+</div>
 
 
 </fieldset>
