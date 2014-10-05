@@ -77,3 +77,10 @@ h1.logotype a:link, h1.logotype a:visited {
     font-size: 2.4em;
     font-weight: bold;
 }
+
+
+.teaserimg {
+   display: inline;
+   float: right;
+   margin-left: 10px;
+}

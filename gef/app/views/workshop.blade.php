@@ -13,7 +13,11 @@
       <h2 class="subheader">#{{$ws->id}}: {{$ws->title}}</h2>
       <h3 class="subheader">{{$ws->subtitle}}</h3>
       
-      <p>{{$ws->description}}</p>
+      <p>
+@if ($ws->teaser_image != '')
+  <img class="teaserimg" src="{{asset('img/' . $ws->teaser_image)}}"/>
+@endif
+{{$ws->description}}</p>
 
 
 @if ($ws->id == 6)

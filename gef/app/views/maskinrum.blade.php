@@ -10,9 +10,8 @@
     <h2>Maskinrum</h2>
 
   
-    <p>Alle : {{$alle}}</p>
-
-
+    <p>Alle : {{$all}}</p>
+    <p>OD : {{$od}}</p>
   </div>
 </div>
 

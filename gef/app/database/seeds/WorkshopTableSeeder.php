@@ -15,7 +15,7 @@ class WorkshopTableSeeder extends Seeder
 			'description' => 'Deltag i denne workshop, hvis du vil lære ægte afrikansk dans og trommespil. I programmet er der også et oplæg om, hvordan man kan blive frivillig i Ghana. Som der står på sitet afrikanskdansk.dk: “Frivillig i Ghana - en Rejse for Livet. Vil du på Eventyr? Rejs ud i verden - og gør en forskel. Har du lyst til at komme til Afrika, er Ghana et godt valg”. 
 
 På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på tromme og være glad sammen med en danser og en trommespiller!',
-			'teaser_image' => 'afrikansk-dans',
+			'teaser_image' => 'Selamta_Waka.jpg',
 			'freeplaces' => 40,
                         'uri' => 'http://afrikanskdansk.dk',
 		));
@@ -39,7 +39,7 @@ På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på
 
 Hør om hvordan AUG arbejder i Sierre Leone og hvorfor frivillige har bygget et nyt center for React, et dansk NGO-projekt. Arkitekt Carina Nissen står for oplæg og workshop sammen med en repræsentant fra React, der vil introducere til deres projekt og til Sierra Leone mere generelt. Du kommer til at deltage i konkrete måder at arbejde som frivillig på.',
 
-			'teaser_image' => 'arkitekt',
+			'teaser_image' => 'arkitekt.jpg',
 			'freeplaces' => 40,
                         'uri' => 'http://arkitekterudengraenser.dk/',
 		));
@@ -71,7 +71,7 @@ I workshoppen kan man tilmelde sig som “par” eller individuelt. Workshoppen 
 			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en specifik sag via en oplysningskampagne. Dette munder ud i den store Operation Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge ind til årets sag. I år støtter Operation Dagsværk homoseksuelles kamp for lige rettigheder i Kenya. Sagen er nemlig den, at unge homoseksuelle og transkønnede i Kenya bliver smidt ud af deres hjem og forfulgt, udelukkende på grund af deres seksualitet og kønsidentitet. Dette vil Operation Dagsværk prøve at afhjælpe ved at uddanne unge i Kenya til at blive ambassadører for flere rettigheder for LGBT i Kenya.
 
 På selve dagsværkdagen finder du selv et job. Du kommer til at arbejde 5 timer og skal tjene mindst 300 kr ind til sagen. Hvis du melder dig til denne workshop får du mere information løbende.',
-			'teaser_image' => '',
+			'teaser_image' => 'dagsvaerk.png',
 			'freeplaces' => 130,
                         'isODworkshop' => true,
                         'uri' => 'http://od.dk/',
@@ -85,7 +85,7 @@ På selve dagsværkdagen finder du selv et job. Du kommer til at arbejde 5 timer
 			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en specifik sag via en oplysningskampagne. Dette munder ud i den store Operation Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge ind til årets sag. I år støtter Operation Dagsværk homoseksuelles kamp for lige rettigheder i Kenya. Sagen er nemlig den, at unge homoseksuelle og transkønnede i Kenya bliver smidt ud af deres hjem og forfulgt, udelukkende på grund af deres seksualitet og kønsidentitet. Dette vil Operation Dagsværk prøve at afhjælpe ved at uddanne unge i Kenya til at blive ambassadører for flere rettigheder for LGBT i Kenya.
 
 På selve dagsværkdagen får du OD-udvalget til at finde et job for dig. Du kommer til at arbejde 5 timer og skal tjene mindst 300 kr ind til sagen. Hvis du melder dig til denne workshop får du mere information løbende.',
-			'teaser_image' => '',
+			'teaser_image' => 'dagsvaerk.png',
 			'freeplaces' => 70,
                         'isODworkshop' => true,
                         'uri' => 'http://od.dk/',
@@ -122,7 +122,7 @@ I denne workshop hører deltagerne først et oplæg ved Aldin. Herefter er form�
 Dagen starter hos Glad Fonden hvor vi først vil fortælle om hvordan vi i Glad Fonden ansætter og uddanner mennesker med og uden handicap. Sammen  laver vi mad, teater, radio, tv og meget mere. Måske kender du os fra Tv-Glad? Derefter vil I blive introduceret til Glad Tur app’en og gå ud og anmelde byen I små grupper. Det hold der får anmeldt flest steder på dagen vinder et gavekort til et cafébesøg.Vi slutter dagen hos Glad Fonden og  kårer vinderen af konkurrencen. 
 
 "Vi tror på, at mennesker med forskellige forudsætninger er et aktiv, der kan gøre det samfund vi bor i rigere, gladere og mere inspirerende.” Se en GLAD film: http://www.gladfonden.dk/engladfilm',
-			'teaser_image' => '',
+			'teaser_image' => 'glad.png',
 			'freeplaces' => 150,
                         'uri' => '',
 		));
@@ -240,7 +240,7 @@ Alle kan være med - uanset om du kender til bæredygtighed eller ej.',
 			'description' => 'I denne workshop mødes unge og ældre generationer. Vil du være med til at hjælpe ældre mennesker med at bruge en computer eller en iPad? Eller er du villig til at høre deres(de ældres) historier, lave en debat, lære at strikke, samt spille kortspil? For at være med i denne workshop skal du have lyst til at gøre en forskel for ældre mennesker og dig selv, og så skal du huske din computer eller iPad, til når vi skal ud af huset for at møde de ældre. Vi lover at det bliver en super hyggelig dag med anderledes oplevelser, både for unge og ældre. 
 ”Jeg synes at det var en sjov og lærerig dag sammen med de ældre på Sløjfen, da jeg følte at jeg gjorde en forskel. Men jeg synes også at de gjorde en forskel for mig, da jeg lærte om mine medmennesker fra den ældre generation.” - Cecilie 3.b
 “Jeg forventede, at vi skulle snakke med pensionisterne om gamle dage og bare hygge med dem, men ikke rigtig andet da de sikkert ville være for gamle til at få en rigtig samtale kørende. Jeg tog rigtig meget fejl. Det var et rigtig fedt initiativ fra elevernes side og noget jeg helt sikker vil se frem til næste år.” - Niels 3.b',
-			'teaser_image' => '',
+			'teaser_image' => 'generation.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
 		));
@@ -251,7 +251,7 @@ Alle kan være med - uanset om du kender til bæredygtighed eller ej.',
 			'description' => 'OEG skal gøres til et globalt værested, hvor du møder en kulturel mangfoldighed til hverdag. Det betyder, at OEG bliver rammen om en hverdag, hvor folk føler sig som en del af et globalt fællesskab og deltager i aktiviteter, der ligger ud over Ørestads grænser. Kort sagt – vi skal udvikle ideer til, hvordan vi gør OEG til en mere global skole. 
 
 I denne workshop arbejder vi innovativt ved hjælp af Index’ kompas, og I skal i løbet af dagen udvikle et produkt, der gør skolen mere global. Produkterne præsenteres for en fra skolens ledelse ved workshoppens afslutning. Den bedste idé, bliver realiseret.',
-			'teaser_image' => '',
+			'teaser_image' => 'oeg-vaerksted.png',
 			'freeplaces' => 30,
                         'uri' => '',
 		));
@@ -293,7 +293,7 @@ I denne workshop arbejder vi innovativt ved hjælp af Index’ kompas, og I skal
 			'title' => 'Ventilen: en vej ud af ensomheden',
                         'subtitle' => '',
 			'description' => 'Ensomhed kan ramme alle – og heldigvis kan vi alle sammen gøre noget for at skabe gode fællesskaber. Og række ud mod dem, der trænger til et klap på skulderen. I Ventilen arbejder vi med ensomhed blandt unge og hvordan den kan forebygges og afhjælpes. Og det fede er, at det der hjælper ensomme unge, også er godt for alle andre. Bliv klogere på ensomhed, social trivsel og hvad du kan gøre for at skabe den klasse og skole, der er rarest at være en del af. Du kan læse mere om Ventilen på http://www.ventilen.dk.',
-			'teaser_image' => '',
+			'teaser_image' => 'ventilen.jpg',
 			'freeplaces' => 35,
                         'uri' => '',
 		));

@@ -2,7 +2,11 @@
 
 // app/routes.php
 
+
+// ------------------------------------
 // Homepage (with all workshops listed)
+// ------------------------------------
+
 
 Route::get('/temp', function()
 {
@@ -10,8 +14,16 @@ Route::get('/temp', function()
 });
 
 
-// List all workshops
 Route::get('/', function()
+{
+	return View::make('gef');
+});
+
+// ------------------
+// List all workshops
+// ------------------
+
+Route::get('x', function()
 {
 	$workshops =  Workshop::get(array('id', 'title','freeplaces'));
 	return View::make('home', compact('workshops'));
@@ -19,16 +31,10 @@ Route::get('/', function()
 
 
 
-Route::get('maskinrum', function()
-{
-        $workshops =  Workshop::get(array('id', 'title','freeplaces'));
-	return View::make('maskinrum',
-           array('all' => Pupil::count()));
-});
-
-
-
+// ----------------------
 // Show a single workshop
+// ----------------------
+
 Route::get('workshop/{wid}', function($wid)
 {
 	$ws =  Workshop::find($wid);
@@ -36,8 +42,10 @@ Route::get('workshop/{wid}', function($wid)
 });
 
 
-
+// ---------------------
 // List all tilmeldinger
+// ---------------------
+
 Route::get('tilmeldinger', function()
 {
     $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
@@ -45,18 +53,24 @@ Route::get('tilmeldinger', function()
 });
 
 
+
+// -------------------------
 // List all OD tilmeldinger
-Route::get('tilmeldinger', function()
+// -------------------------
+
+// List all OD tilmeldinger
+Route::get('odtilmeldinger', function()
 {
-    $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
+    $pupils =  Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->get();
     return View::make('odtilmeldinger', compact('pupils'));
 });
 
 
 
-
-
+// -------------------
 // Vis tilmeldingsform
+// -------------------
+
 Route::get('tilmelding/{wid}', function($wid)
 {
       $ws = Workshop::find($wid);
@@ -69,9 +83,9 @@ Route::get('tilmelding/{wid}', function($wid)
 });
 
 
-
-
+// ----------------------------------------
 // Create new tilmelding in normal workshop
+// ----------------------------------------
 
 Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
 {
@@ -124,7 +138,10 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
 }));
 
 
-// Vis tilmeldingsform operation dagsværk (Jeg skaffer arbejde )
+
+// -------------------------------------------------------------
+// Vis tilmeldingsform operation dagsværk (Jeg skaffer arbejde)
+// -------------------------------------------------------------
 
 Route::get('od/tilmelding/har/arbejde', function()
 {
@@ -139,8 +156,9 @@ Route::get('od/tilmelding/har/arbejde', function()
 });
 
 
-
-// Create new tilmelding in Operation Dagsværk workshop (Jeg skaffer arbejde )
+// --------------------------------------------------------------------------
+// Create new tilmelding in Operation Dagsværk workshop (Jeg skaffer arbejde)
+// --------------------------------------------------------------------------
 
 
 //        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
@@ -148,18 +166,17 @@ Route::get('od/tilmelding/har/arbejde', function()
 Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 {
 
-    $ws =  Workshop::find(6);
-
     $data = Input::All();
+
+    $ws =  Workshop::find(6);
 
     $rules = array (
         'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
-        'wid' => 'required',
         'phone' => array('required', 'size:8'),
-        'email' => 'required|email|unique:addresses,email',
-        'workplace' => 'required_if:haswork,yes'
+        'email' => 'required|email',
+        'workplace' => 'required',
     );
 
     $messages = array (
@@ -200,10 +217,11 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
     }
 }));
 
+// -----------------------------------------------------------
+// Vis tilmeldingsform operation dagsværk (Jeg ønsker arbejde)
+// -----------------------------------------------------------
 
-// Vis tilmeldingsform operation dagsværk (Jeg ønsker arbejde )
-
-Route::get('od/tilmelding/har/ikke/arbejde', function()
+Route::get('od/tilmelding', function()
 {
 //      $ws = Workshop::where('isODworkshop', '=', 'true')->get();
       $ws = Workshop::find(7);
@@ -216,11 +234,11 @@ Route::get('od/tilmelding/har/ikke/arbejde', function()
 });
 
 
+// -------------------------------------------------------------------------
+// Create new tilmelding in Operation Dagsværk workshop (Jeg ønsker arbejde)
+// -------------------------------------------------------------------------
 
-// Create new tilmelding in Operation Dagsværk workshop (Jeg ønsker arbejde )
-
-
-Route::post('od/tilmelding/har/ikke/arbejde', array('before' => 'csrf', function()
+Route::post('od/tilmelding', array('before' => 'csrf', function()
 {
 
     $ws =  Workshop::find(7);
@@ -232,10 +250,8 @@ Route::post('od/tilmelding/har/ikke/arbejde', array('before' => 'csrf', function
         'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
-        'wid' => 'required',
         'phone' => array('required', 'size:8'),
-        'email' => 'required|email|unique:addresses,email',
-        'workplace' => 'required_if:haswork,yes'
+        'email' => 'required|email',
     );
 
     $messages = array (
@@ -250,7 +266,7 @@ Route::post('od/tilmelding/har/ikke/arbejde', array('before' => 'csrf', function
     $validator = Validator::make($data, $rules, $messages);
 
     if ($validator->fails()) {
-       return Redirect::to('od/tilmelding/har/ikke/arbejde')->withInput($data)->withErrors($validator);
+       return Redirect::to('od/tilmelding')->withInput($data)->withErrors($validator);
     } else {
         if ($ws->freeplaces > 0)
         {
@@ -275,6 +291,21 @@ Route::post('od/tilmelding/har/ikke/arbejde', array('before' => 'csrf', function
         }
     }
 }));
+
+
+
+
+
+Route::get('/kun/for/you/know/who', function()
+{
+        $workshops =  Workshop::get(array('id', 'title','freeplaces'));
+	return View::make('maskinrum',
+           array('all' => Pupil::count(),
+                 'od' => Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->count()));
+});
+
+
+
 
 
 
