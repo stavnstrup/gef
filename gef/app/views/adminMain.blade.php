@@ -14,9 +14,9 @@
 
 
   <ul>
-   <li><a href="./live">Tilmeldinger live</a> - siden opdateres hvert minut.</li>
-   <li><a href="./tilmeldinger">Alle tilmeldinger</a><br/></li>
-   <li><a href="./odtilmeldinger">Kun OD tilmeldinger</a></li>
+   <li><a href="/kun/for/you/know/who/live">Tilmeldinger live</a> - siden opdateres hvert minut.</li>
+   <li><a href="/kun/for/you/know/who/tilmeldinger">Alle tilmeldinger</a><br/></li>
+   <li><a href="/kun/for/you/know/who/odtilmeldinger">Kun OD tilmeldinger</a></li>
   </ul>
 
 
