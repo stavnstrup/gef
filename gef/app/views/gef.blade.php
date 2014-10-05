@@ -4,18 +4,18 @@
 <html xmlns="http://www.w3.org/1999/xhtml"> 
   <head>
       <meta charset="utf-8" />
-      <title>Gør en forskel</title> 
+      <title>Gør en forskel.</title> 
       <style type="text/css"> 
 	html, body {height: 100%;}
 	#floater {
 	  float:left; height:50%;
-          position:relative; margin-bottom:-42px;}
+          position:relative; margin-bottom:-122px;}
         #content {clear:both; height:84px; position:relative;
            font-family:sans-serif; font-size:72px; text-align:center;}
       </style> 
   </head> 
   <body> 
     <div id="floater"></div> 
-    <div id="content">gef.nw3.dk</div> 
+    <div id="content">OEG - Gør en forskel<br/>Der åbnes for tilmeldinger<br />tirsdag d. 7. oktober</div> 
   </body> 
  </html>
