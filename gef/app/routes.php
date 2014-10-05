@@ -45,6 +45,13 @@ Route::get('tilmeldinger', function()
 });
 
 
+// List all OD tilmeldinger
+Route::get('tilmeldinger', function()
+{
+    $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
+    return View::make('odtilmeldinger', compact('pupils'));
+});
+
 
 
 
@@ -68,9 +75,7 @@ Route::get('tilmelding/{wid}', function($wid)
 
 Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
 {
-
-   return "Hello world";
-
+    
 
     $data = Input::All();
 
@@ -94,10 +99,10 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
     $validator = Validator::make($data, $rules, $messages);
 
     if ($validator->fails()) {
-       return Redirect::to('tilmelding')->withInput($data)->withErrors($validator);
+       return Redirect::to(url('tilmelding/'.$wid))->withInput($data)->withErrors($validator);
     } else {
 
-        $ws = Workshop::find(Input::get('wid'));
+        $ws = Workshop::find($wid);
         if ($ws->freeplaces > 0)
         {
             $ws->freeplaces = $ws->freeplaces - 1;
@@ -107,7 +112,7 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
             $pupil->firstname = ucfirst(Input::get('firstname'));
             $pupil->lastname = ucfirst(Input::get('lastname'));
             $pupil->ODselected = false;
-            $pupil->workshop_id = Input::get('wid');
+            $pupil->workshop_id = $ws->id;
             $pupil->save();
 
             return Redirect::to('/');

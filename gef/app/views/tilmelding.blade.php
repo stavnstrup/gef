@@ -10,7 +10,7 @@
   <h2>Tilmelding til workshop #{{$ws->id}}</h2>
   <h2 class='subheader'>  {{$ws->title}}</h2>
 
-{{ Form::open(array('url' => 'tilmelding')) }}
+{{ Form::open(array('url' => 'tilmelding/'.$ws->id)) }}
 
 
 <div class="row">
