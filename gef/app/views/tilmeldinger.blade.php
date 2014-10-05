@@ -30,7 +30,8 @@
     </table>
   @endif
 
-  <p><a href="/">Tilbage til forsiden</a></p>
+   <p><a href="/kun/for/you/know/who/">Tilbage til administrationssiden</a></
+
 
   </div>
 </div>

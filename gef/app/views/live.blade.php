@@ -20,6 +20,10 @@
       <div class="small-6 columns">{{$all}}</div>
       <div class="small-6 columns">OD tilmeldinger:</div><div class="small-6 columns">{{$od}}</div>
     </div>
+
+      <p><a href="/kun/for/you/know/who/">Tilbage til administrationssiden</a></p>
+
+
   </div>
 </div>
 
