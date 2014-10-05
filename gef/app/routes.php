@@ -18,6 +18,7 @@ Route::get('/', function()
 });
 
 
+
 Route::get('maskinrum', function()
 {
         $workshops =  Workshop::get(array('id', 'title','freeplaces'));
@@ -44,12 +45,6 @@ Route::get('tilmeldinger', function()
 });
 
 
-// List all tilmeldinger2
-Route::get('tilmeldinger2', function()
-{
-    $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
-    return View::make('tilmeldinger2', compact('pupils'));
-});
 
 
 
@@ -73,14 +68,20 @@ Route::get('tilmelding/{wid}', function($wid)
 
 Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
 {
+
+   return "Hello world";
+
+
     $data = Input::All();
 
-    $rules = array (
 //        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
+
+
+    $rules = array (
         'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
-        'wid' => 'required',
+//        'wid' => 'required',
     );
 
 
@@ -95,6 +96,7 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
     if ($validator->fails()) {
        return Redirect::to('tilmelding')->withInput($data)->withErrors($validator);
     } else {
+
         $ws = Workshop::find(Input::get('wid'));
         if ($ws->freeplaces > 0)
         {
@@ -102,7 +104,6 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
             $ws->save();
             $pupil = new Pupil;
             $pupil->pupilid = Input::get('pupilid');
-
             $pupil->firstname = ucfirst(Input::get('firstname'));
             $pupil->lastname = ucfirst(Input::get('lastname'));
             $pupil->ODselected = false;
@@ -113,6 +114,7 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
         } else {
           // Sidste plads på denne workshop er taget af en anden bruger
         }
+
     }
 }));
 
@@ -136,6 +138,8 @@ Route::get('od/tilmelding/har/arbejde', function()
 // Create new tilmelding in Operation Dagsværk workshop (Jeg skaffer arbejde )
 
 
+//        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
+
 Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 {
 
@@ -144,7 +148,6 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
     $data = Input::All();
 
     $rules = array (
-//        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
         'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
@@ -286,3 +289,9 @@ Route::group(array('prefix' => 'api'), function(){
 
 
 
+// List all tilmeldinger2
+Route::get('tilmeldinger2', function()
+{
+    $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
+    return View::make('tilmeldinger2', compact('pupils'));
+});

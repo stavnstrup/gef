@@ -7,10 +7,10 @@
   <div class="row">
     <div class="small-12">
 
-      <div class="wsheader">
+      <div class="wsheader c{{$ws->id % 6}}">
         <h2>Workshop {{$ws->id}}</h2>
       </div>
-      <h2 class="subheader">{{$ws->title}}</h2>
+      <h2 class="subheader">#{{$ws->id}}: {{$ws->title}}</h2>
       <h3 class="subheader">{{$ws->subtitle}}</h3>
       
       <p>{{$ws->description}}</p>
