@@ -7,7 +7,7 @@
 <div class="row">
   <div class="small-12 columns">
 
-  <h2>Tilmelding til workshop #{{$ws->id}}</h2>
+  <h2>Tilmelding til workshop {{$ws->id}}</h2>
   <h2 class='subheader'>  {{$ws->title}}</h2>
 
 {{ Form::open(array('url' => 'tilmelding/'.$ws->id)) }}
