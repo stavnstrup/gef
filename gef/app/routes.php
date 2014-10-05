@@ -4,14 +4,8 @@
 
 
 // ------------------------------------
-// Homepage (with all workshops listed)
+// Midlertidig Homepage 
 // ------------------------------------
-
-
-Route::get('/temp', function()
-{
-	return View::make('tempforside');
-});
 
 
 Route::get('/', function()
@@ -19,9 +13,11 @@ Route::get('/', function()
 	return View::make('gef');
 });
 
-// ------------------
-// List all workshops
-// ------------------
+
+// ------------------------------------
+// Homepage (with all workshops listed)
+// ------------------------------------
+
 
 Route::get('x', function()
 {
