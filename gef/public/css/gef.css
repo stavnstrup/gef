@@ -84,3 +84,16 @@ h1.logotype a:link, h1.logotype a:visited {
    float: right;
    margin-left: 10px;
 }
+
+
+/* Admin page */
+
+.gstatus {
+   font-size: 36px;
+}
+
+
+.tt {
+   padding-left: 10px;
+   font-family: monospace;
+}

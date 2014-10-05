@@ -42,28 +42,6 @@ Route::get('workshop/{wid}', function($wid)
 });
 
 
-// ---------------------
-// List all tilmeldinger
-// ---------------------
-
-Route::get('tilmeldinger', function()
-{
-    $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
-    return View::make('tilmeldinger', compact('pupils'));
-});
-
-
-
-// -------------------------
-// List all OD tilmeldinger
-// -------------------------
-
-// List all OD tilmeldinger
-Route::get('odtilmeldinger', function()
-{
-    $pupils =  Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->get();
-    return View::make('odtilmeldinger', compact('pupils'));
-});
 
 
 
@@ -293,41 +271,49 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
 }));
 
 
+// -------------------------
+// Administrations router
+// -----------------------
 
 
 
-Route::get('/kun/for/you/know/who', function()
-{
+    Route::get('kun/for/you/know/who', function()
+    {
+       return View::make('adminMain');
+
+    });
+
+    Route::get('kun/for/you/know/who/live', function()
+    {
         $workshops =  Workshop::get(array('id', 'title','freeplaces'));
-	return View::make('maskinrum',
+	return View::make('live',
            array('all' => Pupil::count(),
                  'od' => Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->count()));
-});
+    });
 
 
 
 
+// ---------------------
+// List all tilmeldinger
+// ---------------------
 
-
-
-// Get all workshops
-Route::group(array('prefix' => 'api'), function(){
-
-        // list all workshops
-        Route::get('workshops', function()
-        {
-                $workshops =  Workshop::where('freeplaces', '>', '0')->get(array('title', 'description'));
-		return Response::json($workshops->toArray());
-
-        });
-
-});		    
-
-
-
-// List all tilmeldinger2
-Route::get('tilmeldinger2', function()
+Route::get('kun/for/you/know/who/tilmeldinger', function()
 {
     $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
-    return View::make('tilmeldinger2', compact('pupils'));
+    return View::make('tilmeldinger', compact('pupils'));
 });
+
+
+
+// -------------------------
+// List all OD tilmeldinger
+// -------------------------
+
+// List all OD tilmeldinger
+Route::get('kun/for/you/know/who/odtilmeldinger', function()
+{
+    $pupils =  Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->get();
+    return View::make('odtilmeldinger', compact('pupils'));
+});
+
