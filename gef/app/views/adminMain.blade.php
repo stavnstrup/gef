@@ -20,7 +20,7 @@
   </ul>
 
 
-  <p>Når i lukker for tilmelding, kan i importere elevernes tilmeldingerne i et Google regneark, ved at følge nedenstående instruktioner.</p>
+  <p>Når I har lukket for tilmelding, kan I importere elevernes tilmeldinger i et Google regneark, ved at følge nedenstående instruktioner.</p>
 
    <ol>
      <li>Opret et nyt Google regneark.</li>
