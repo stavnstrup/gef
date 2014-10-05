@@ -24,11 +24,6 @@
   </div>
 </div>
 
-<div class="row">
-  <div class="small-12 columns">
-    <p><a href="/">Tilbage til forsiden</a></p>
-  </div>
-</div>
 
 
 @stop
