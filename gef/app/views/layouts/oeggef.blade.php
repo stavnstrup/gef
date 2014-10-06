@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
   @yield('myheader')
+  <link rel="stylesheet" href="{{asset('css/normalize.css')}}" />
   <link rel="stylesheet" href="{{asset('css/foundation.min.css')}}" />
   <link rel="stylesheet" href="{{asset('css/gef.css')}}" />
   <script src="{{asset('js/vendor/modernizr.js')}}"></script>

@@ -41,7 +41,7 @@ h1.logotype a:link, h1.logotype a:visited {
 
 .block {
   font-weight: bold;
-  padding: 20px 10px 0;
+  padding: 10px 10px 0;
   height: 100px;
   text-decoration: none;
   text-align: center;
@@ -52,7 +52,7 @@ h1.logotype a:link, h1.logotype a:visited {
     color: white;
     text-align: right;
     padding: 0 5px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 
