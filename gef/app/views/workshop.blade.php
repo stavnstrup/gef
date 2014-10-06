@@ -36,7 +36,7 @@ Jeg vil gerne<br/>tilmelde mig denne workshop</a></p>
 <div class="row">
   <div class="small-2 columns">
   @unless ($ws->id == 1)
-    <span><a href="/workshop/{{$ws->id - 1}}">&laquo; forige</a></span>
+    <span><a href="/workshop/{{$ws->id - 1}}">&laquo; forrige</a></span>
   @endunless
   </div>
   <div class="small-2 small-offset-8 columns">
