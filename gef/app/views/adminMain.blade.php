@@ -30,6 +30,7 @@
          <li>For alle OD tilmeldinger skrives: <span class="tt">=IMPORTHTML("http://gef.nw3.dk/kun/for/you/know/who/odtilmeldinger","table",1)</span></li>
        </ul>
      </li>
+     <li>Derefter kan regnearket downloades som et Microsoft Excel regneark, ved at bruge menupunktet "File / Download as"</li> 
    </ol>
 
   </div>
