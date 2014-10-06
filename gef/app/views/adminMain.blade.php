@@ -24,7 +24,7 @@
 
    <ol>
      <li>Opret et nyt Google regneark for hver af tilmeldingslisterne.</li>
-     <li>Gå til formularen og indsæt følgende text
+     <li>Gå til formularfeltet og indsæt følgende text
        <ul>
          <li>For alle tilmeldinger skrives: <span class="tt">=IMPORTHTML("http://gef.nw3.dk/kun/for/you/know/who/tilmeldinger","table",1)</span></li>
          <li>For alle OD tilmeldinger skrives: <span class="tt">=IMPORTHTML("http://gef.nw3.dk/kun/for/you/know/who/odtilmeldinger","table",1)</span></li>
