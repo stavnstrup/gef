@@ -15,7 +15,7 @@
 
   <ul>
    <li><a href="/kun/for/you/know/who/live">Tilmeldinger live</a> - siden opdateres hvert minut.</li>
-   <li><a href="/kun/for/you/know/who/tilmeldinger">Alle tilmeldinger</a><br/></li>
+   <li><a href="/kun/for/you/know/who/tilmeldinger">Alle tilmeldinger</a> - Denne side er resourcekrævende og belaster serveren - bruges med omtanke.</li>
    <li><a href="/kun/for/you/know/who/odtilmeldinger">Kun OD tilmeldinger</a></li>
   </ul>
 
