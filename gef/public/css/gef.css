@@ -64,6 +64,12 @@ h1.logotype a:link, h1.logotype a:visited {
 .c0, .c6 { background-color: #ffffff; } /* white */
 
 
+.gpager {
+   font-size: 18px;
+   margin: 20px 0;
+}
+
+
 /* Workshop page */
 
 .wsheader {

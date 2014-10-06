@@ -19,6 +19,7 @@
 @endif
 {{$ws->description}}</p>
 
+
 @if ($ws->freeplaces >0)
 @if ($ws->id == 6)
   <a href="/od/tilmelding/har/arbejde/" class="button">
@@ -30,7 +31,25 @@
 Jeg vil gerne<br/>tilmelde mig denne workshop</a></p>
 @endif
 
+
+<div class="gpager">
+<div class="row">
+  <div class="small-2 columns">
+  @unless ($ws->id == 1)
+    <span><a href="/workshop/{{$ws->id - 1}}">&laquo; forige</a></span>
+  @endunless
+  </div>
+  <div class="small-2 small-offset-8 columns">
+  @unless ($ws->id == 26)
+    <span class="right"><a href="/workshop/{{$ws->id + 1}}">næste &raquo;</a></span>
+  @endunless
+  </div>
+</div>
+</div>
+
+
       <p><a href="/">Tilbage til forsiden</a></p>
+
     </div>
   </div>
 @stop
