@@ -282,9 +282,12 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
     Route::get('kun/for/you/know/who/live', function()
     {
         $workshops =  Workshop::get(array('id', 'title','freeplaces'));
-	return View::make('live',
+//return
+ 	return View::make('live',
            array('all' => Pupil::count(),
-                 'od' => Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->count()));
+                 'od' => Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->count(),
+                 'wsall' => compact('workshops')
+           ));
     });
 
 
