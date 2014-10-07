@@ -16,7 +16,7 @@ class WorkshopTableSeeder extends Seeder
 
 På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på tromme og være glad sammen med en danser og en trommespiller!',
 			'teaser_image' => 'Selamta_Waka.jpg',
-			'freeplaces' => 1,
+			'freeplaces' => 40,
                         'uri' => 'http://afrikanskdansk.dk',
 		));
 
