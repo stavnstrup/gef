@@ -103,9 +103,11 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
             $pupil->workshop_id = $ws->id;
             $pupil->save();
 
-            return Redirect::to('/');
+            return View::make('accepteret');
+
         } else {
           // Sidste plads på denne workshop er taget af en anden bruger
+          return View::make('overtegnet');
         }
 
     }
@@ -183,10 +185,12 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
             $pupil->workplace = Input::get('workplace');
             $pupil->save();
 
-            return Redirect::to('/');
+            return View::make('accepteret');
+
 
         } else {
           // Sidste plads på denne workshop er taget af en anden bruger
+          return View::make('overtegnet');
         }
     }
 }));
@@ -258,13 +262,15 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
             $pupil->workplace = '';
             $pupil->save();
 
-            return Redirect::to('/');
-
+            return View::make('acepteret');
         } else {
-          // Sidste plads på denne workshop er taget af en anden bruger
+            return View::make('overtegnet');
         }
     }
 }));
+
+
+
 
 
 // -------------------------
