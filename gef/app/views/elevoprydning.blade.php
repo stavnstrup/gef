@@ -14,6 +14,7 @@
       <th>Efternavn</th>
       <th>Fornavn</th>
       <th>Workshop</th>
+      <th>Tilmelding</th>
       <th>Aktion</th>
     </tr>
     @foreach($pupils as $p)
@@ -22,6 +23,7 @@
       <td>{{ $p->lastname }}</td>
       <td>{{ $p->firstname }}</td>
       <td>{{ $p->workshop_id }}</td>
+      <td>{{ $p->id }}</td>
       <td><a href="/kun/for/you/know/who/slet/{{$p->id}}">Slet tilmelding</a></td>
     </tr>
     @endforeach
