@@ -7,7 +7,7 @@
 <div class="row">
   <div class="small-12">
 
-  <h2>Workshop {{$deltagere->first()->workshop_id}} deltagere</h2>
+  <h2>Deltagere i workshop {{$deltagere->first()->workshop_id}}</h2>
 
     <table>
       <tr>
