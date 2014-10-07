@@ -18,13 +18,13 @@ Route::get('/', function()
 // Homepage (with all workshops listed)
 // ------------------------------------
 
-/*
-Route::get('/', function()
+
+Route::get('/x', function()
 {
 	$workshops =  Workshop::get(array('id', 'title','freeplaces'));
 	return View::make('home', compact('workshops'));
 });
-*/
+
 
 
 // ----------------------
@@ -326,7 +326,17 @@ Route::get('kun/for/you/know/who/odtilmeldinger', function()
 
 Route::get('kun/for/you/know/who/elevoprydning', function()
 {
-    $pupils = DB::table('pupils')->orderBy('workshop_id', 'asc')->orderBy('lastname', 'asc')->get(array('id','pupilid','firstname','lastname','workshop_id'));
+    $pupils = DB::table('pupils')->orderBy('pupilid', 'asc')->orderBy('lastname', 'asc')->orderBy('firstname', 
+       'asc')->get(array('id','pupilid','firstname','lastname','workshop_id'));
     return View::make('elevoprydning',compact('pupils'));
+});
 
+Route::get('kun/for/you/know/who/slet/{pid}', function($pid)
+{
+    $pupil = Pupil::find($pid);
+    $ws = Workshop::find($pupil->workshop_id);
+    $ws->freeplaces = $ws->freeplaces + 1;
+    $ws->save();
+    $pupil->delete();
+    return Redirect::to('kun/for/you/know/who/elevoprydning');  
 });

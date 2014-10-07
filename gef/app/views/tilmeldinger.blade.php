@@ -14,7 +14,7 @@
   @if ($pupils->count() > 0)
     <table>
       <tr>
-        <th>Elev Id</th>
+        <th>Klasse</th>
         <th>Efternavn</th>
         <th>Fornavn</th>
         <th>Workshop</th>
