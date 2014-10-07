@@ -322,3 +322,11 @@ Route::get('kun/for/you/know/who/odtilmeldinger', function()
     return View::make('odtilmeldinger', compact('pupils'));
 });
 
+
+
+Route::get('kun/for/you/know/who/elevoprydning', function()
+{
+    $pupils = DB::table('pupils')->orderBy('workshop_id', 'asc')->orderBy('lastname', 'asc')->get(array('id','pupilid','firstname','lastname','workshop_id'));
+    return View::make('elevoprydning',compact('pupils'));
+
+});
