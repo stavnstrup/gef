@@ -7,24 +7,31 @@
 // Midlertidig Homepage 
 // ------------------------------------
 
-
+/*
 Route::get('/', function()
 {
 	return View::make('gef');
 });
-
+*/
 
 // ------------------------------------
 // Homepage (with all workshops listed)
 // ------------------------------------
 
 
-Route::get('/x', function()
+Route::get('/', function()
 {
 	$workshops =  Workshop::get(array('id', 'title','freeplaces'));
 	return View::make('home', compact('workshops'));
 });
 
+
+
+Route::get('deltagere/{wid}', function($wid)
+{
+    $deltagere = Pupil::where('workshop_id', '=', $wid)->orderBy('lastname', 'asc')->get();
+    return View::make('deltagere', compact('deltagere'));
+});
 
 
 // ----------------------
@@ -89,6 +96,14 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
     if ($validator->fails()) {
        return Redirect::to(url('tilmelding/'.$wid))->withInput($data)->withErrors($validator);
     } else {
+
+        $oldregistration = Pupil::where('pupilid', '=', Input::get('pupilid'))->where(
+             'firstname', '=', ucfirst(Input::get('firstname')))->where(
+             'lastname', '=', ucfirst(Input::get('lastname')))->get();
+        if ($oldregistration->Count()>0)
+        {
+           return View::make('afvist');
+        }
 
         $ws = Workshop::find($wid);
         if ($ws->freeplaces > 0)
@@ -169,6 +184,16 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
     if ($validator->fails()) {
        return Redirect::to('od/tilmelding/har/arbejde')->withInput($data)->withErrors($validator);
     } else {
+
+        $oldregistration = Pupil::where('pupilid', '=', Input::get('pupilid'))->where(
+             'firstname', '=', ucfirst(Input::get('firstname')))->where(
+             'lastname', '=', ucfirst(Input::get('lastname')))->get();
+        if ($oldregistration->Count()>0)
+        {
+           return View::make('afvist');
+        }
+
+
         if ($ws->freeplaces > 0)
         {
             $ws->freeplaces = $ws->freeplaces - 1;
@@ -246,6 +271,15 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
     if ($validator->fails()) {
        return Redirect::to('od/tilmelding')->withInput($data)->withErrors($validator);
     } else {
+
+        $oldregistration = Pupil::where('pupilid', '=', Input::get('pupilid'))->where(
+             'firstname', '=', ucfirst(Input::get('firstname')))->where(
+             'lastname', '=', ucfirst(Input::get('lastname')))->get();
+        if ($oldregistration->Count()>0)
+        {
+           return View::make('afvist');
+        }
+
         if ($ws->freeplaces > 0)
         {
             $ws->freeplaces = $ws->freeplaces - 1;
@@ -288,7 +322,7 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
     Route::get('kun/for/you/know/who/live', function()
     {
         $workshops =  Workshop::get(array('id', 'title','freeplaces'));
-//return
+
  	return View::make('live',
            array('all' => Pupil::count(),
                  'od' => Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->count(),

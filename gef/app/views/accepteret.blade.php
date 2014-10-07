@@ -7,9 +7,10 @@
   <div class="row">
     <div class="small-12">
      
-     <h2>Tak for din tilmelding</h2>
+     <h2>Din tilmelding er accepteret</h2>
 
-     <p>Din tilmelding er godkendt. Vi ses på GEF dagen.</p>
+     <p>Tak for din tilmelding. Vi ses på GEF dagen d. 5. november.</p>
+
 
     </div>
   </div>

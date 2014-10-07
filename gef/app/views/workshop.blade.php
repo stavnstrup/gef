@@ -47,8 +47,9 @@ Jeg vil gerne<br/>tilmelde mig denne workshop</a></p>
 </div>
 </div>
 
+     <p>Hvem er de andre <a href="/deltagere/{{$ws->id}}">deltagere</a> i denne workshop?</p>
 
-      <p><a href="/">Tilbage til forsiden</a></p>
+     <p><a href="/">Tilbage til forsiden</a></p>
 
     </div>
   </div>
