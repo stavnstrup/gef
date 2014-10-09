@@ -46,6 +46,44 @@ Route::get('workshop/{wid}', function($wid)
 
 
 
+// -------------------------
+// 
+// -------------------------
+
+
+Route::get('tilmeldingsfordeling', function()
+{
+
+   $pupilnumbers = array(
+        "1a" => 28, "1b" => 28, "1c" => 26, "1d" => 24, "1e" => 27, "1f" => 26,
+        "1h" => 30, "1i" => 30, "1j" => 27, "1k" => 29, "1l" => 27, "1m" => 28,
+        "1n" => 28, "1o" => 30,
+        "2a" => 29, "2b" => 32, "2c" => 23, "2d" => 18, "2e" => 26, "2f" => 31,
+        "2h" => 28, "2i" => 25, "2j" => 19, "2k" => 18, "2l" => 30, "2m" => 30,
+        "2n" => 17, "2o" => 27, "3a" => 24, "3b" => 25, "3c" => 27, "3d" => 24,
+        "3e" => 24, "3f" => 28, "3h" => 23, "3i" => 26, "3j" => 24, "3k" => 23,
+        "3l" => 26, "3m" => 24, "3n" => 16, "3o" => 22);
+ 
+
+   $pupils = Pupil::all();
+
+   $statistics = array();
+
+   foreach ($pupilnumbers as $class => $numbers)
+   {
+       $tilmeldte = Pupil::where('pupilid', '=', $class)->get()->Count();
+       array_push($statistics, array("class" => $class, 
+                                    "tilmeldte" => $tilmeldte,
+                                    "mangler" => $numbers-$tilmeldte)); 
+   }
+
+
+// return var_dump($statistics);  
+//   return var_dump(array('stat' => $statistics));  
+   return View::make('tilmeldingsfordeling', array('stat' => $statistics));
+
+});
+
 
 
 // -------------------
