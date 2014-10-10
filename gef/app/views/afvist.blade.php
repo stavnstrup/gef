@@ -5,7 +5,7 @@
 @section('body')
 
   <div class="row">
-    <div class="small-12">
+    <div class="small-12 columns">
      
      <h2>Din tilmelding er afvist</h2>
 
