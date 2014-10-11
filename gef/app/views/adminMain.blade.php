@@ -16,8 +16,8 @@
   <ul>
    <li><a href="/kun/for/you/know/who/live">Tilmeldinger live</a> - Siden opdateres hvert minut.</li>
    <li><a href="/kun/for/you/know/who/tilmeldinger">Vis alle tilmeldinger</a> - Listen er inklusiv OD tilmeldinger.</li>
-   <li><a href="/kun/for/you/know/who/odtilmeldinger">Kun OD tilmeldinger</a></li>
-   <li><a href="/tilmeldingsfordeling">Vil antallet af tilmeldte/ikke tilmeldte elever i alle klasser.</a></li>
+   <li><a href="/kun/for/you/know/who/odtilmeldinger">Kun OD tilmeldinger</a> - Indeholder data fra begge OD workshops.</li>
+   <li><a href="/tilmeldingsfordeling">Vis antallet af tilmeldte/ikke tilmeldte elever i alle klasser.</a></li>
   </ul>
 
 
