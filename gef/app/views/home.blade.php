@@ -13,7 +13,13 @@
           <div class="wsno c{{$ws->id % 6}}">Workshop {{$ws->id}}</div>
           <div class="block c{{$ws->id % 6}}"><a href="/workshop/{{$ws->id}}">{{ $ws->title }}</a></div>
           @if ($ws->freeplaces > 0)
-            <div class="pladser">{{$ws->freeplaces}} pladser</div>
+            <div class="pladser">{{$ws->freeplaces}}
+            @if (($ws->freeplaces == 1)
+            plads
+            @else
+            pladser
+            @endif
+            </div>
           @else
             <div class="pladser">Ikke flere pladser</div>
           @endif
