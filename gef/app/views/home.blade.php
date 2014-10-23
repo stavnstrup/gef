@@ -14,7 +14,7 @@
           <div class="block c{{$ws->id % 6}}"><a href="/workshop/{{$ws->id}}">{{ $ws->title }}</a></div>
           @if ($ws->freeplaces > 0)
             <div class="pladser">{{$ws->freeplaces}}
-            @if (($ws->freeplaces == 1)
+            @if ($ws->freeplaces == 1)
             plads
             @else
             pladser
