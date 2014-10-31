@@ -23,7 +23,7 @@ class WorkshopController extends \BaseController {
 	public function update($id)
 	{
 		$workshop = Workshop::find($Id);
-		if $workshop->freeplaces > 0 {
+		if ($workshop->freeplaces > 0) {
 		   $workshop->freeplaces = $workshop->freeplaces - 1;
                    $workshop->save();
                    return Responce::eloquent($todo);
@@ -41,7 +41,7 @@ class WorkshopController extends \BaseController {
 	 */
 	public function destroy($id)
 	{
-		Workshop::destroy($id
+		Workshop::destroy($id);
 	}
 
 
