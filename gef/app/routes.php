@@ -175,7 +175,7 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
 Route::get('od/tilmelding/har/arbejde', function()
 {
 //      $ws = Workshop::where('isODworkshop', '=', 'true')->get();
-      $ws = Workshop::find(6);
+      $ws = Workshop::find(3);
 
 //    foreach (Workshop::where('freeplaces', '>', '0')->select('id', 'name')->orderBy('id','asc')->get() as $name)
 //    {
@@ -197,7 +197,7 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 
     $data = Input::All();
 
-    $ws =  Workshop::find(6);
+    $ws =  Workshop::find(3);
 
     $rules = array (
         'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
@@ -265,7 +265,7 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 Route::get('od/tilmelding', function()
 {
 //      $ws = Workshop::where('isODworkshop', '=', 'true')->get();
-      $ws = Workshop::find(7);
+      $ws = Workshop::find(4);
 
 //    foreach (Workshop::where('freeplaces', '>', '0')->select('id', 'name')->orderBy('id','asc')->get() as $name)
 //    {
@@ -282,7 +282,7 @@ Route::get('od/tilmelding', function()
 Route::post('od/tilmelding', array('before' => 'csrf', function()
 {
 
-    $ws =  Workshop::find(7);
+    $ws =  Workshop::find(4);
 
     $data = Input::All();
 
@@ -363,7 +363,7 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
 
  	return View::make('live',
            array('all' => Pupil::count(),
-                 'od' => Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->count(),
+                 'od' => Pupil::where('workshop_id', '=', '3')->orWhere('workshop_id', '=', '4')->count(),
                  'wsall' => compact('workshops')
            ));
     });
@@ -390,7 +390,7 @@ Route::get('kun/for/you/know/who/tilmeldinger', function()
 // List all OD tilmeldinger
 Route::get('kun/for/you/know/who/odtilmeldinger', function()
 {
-    $pupils =  Pupil::where('workshop_id', '=', '6')->orWhere('workshop_id', '=', '7')->get();
+    $pupils =  Pupil::where('workshop_id', '=', '3')->orWhere('workshop_id', '=', '4')->get();
     return View::make('odtilmeldinger', compact('pupils'));
 });
 
