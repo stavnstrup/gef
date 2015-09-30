@@ -21,9 +21,9 @@
 
 
 @if ($ws->freeplaces >0)
-@if ($ws->id == 6)
+@if ($ws->id == 3)
   <a href="/od/tilmelding/har/arbejde/" class="button">
-@elseif ($ws->id == 7)
+@elseif ($ws->id == 4)
   <a href="/od/tilmelding/" class="button">
 @else
   <a href="/tilmelding/{{$ws->id}}" class="button">
