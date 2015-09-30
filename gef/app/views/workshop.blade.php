@@ -40,7 +40,7 @@ Jeg vil gerne<br/>tilmelde mig denne workshop</a></p>
   @endunless
   </div>
   <div class="small-2 small-offset-8 columns">
-  @unless ($ws->id == 26)
+  @unless ($ws->id == 33)
     <span class="right"><a href="/workshop/{{$ws->id + 1}}">næste &raquo;</a></span>
   @endunless
   </div>
