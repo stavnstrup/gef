@@ -58,7 +58,7 @@ ind til årets sag.',
 
                 // Workshop 4
 		Workshop::create(array(
-			'wstype' => 'od',
+			'wstype' => 'od.want.job',
 			'title' => 'Operation Dagsværk workshop (vi finder job for dig)',
                         'subtitle' => '',
 			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en

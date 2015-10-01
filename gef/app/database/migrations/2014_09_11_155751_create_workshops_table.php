@@ -21,7 +21,7 @@ class CreateWorkshopsTable extends Migration {
 			$table->string('teaser_image');
 			$table->integer('freeplaces');
 			$table->string('uri');
-			$table->enum('wstype', ['normal','od','od.have.job','address'])->default('normal');
+			$table->enum('wstype', ['normal','od.want.job','od.have.job','address'])->default('normal');
 			$table->timestamps();
 		});
 	}
