@@ -114,7 +114,7 @@ Nu har du chancen for at gøre matematiklæring til en leg for skolebørn. I et 
 
                 // Workshop 8
 		Workshop::create(array(
-			'title' => 'Hvordan fodbold kan gøre en forskel ­ for hjemløse',
+			'title' => 'Hvordan fodbold kan gøre en forskel - for hjemløse',
                         'subtitle' => '',
 			'description' => 'Organisationen OMBOLD, som står bag Danmarks hjemløselandshold i fodbold, kommer og holder et oplæg om deres landshold, samt hvordan fodbold kan gøre en forskel for hjemløse og udsatte mennesker.
 Herefter tager hjemløselandsholdstræner Rikke Sparving sammen med nogle OMBOLD spillere eleverne med på banen i byparken og laver en miniturnering ud fra de principper som OMBOLD bruger for at få samfundets allermest idrætssvage grupper op ad sofaen og ud på banen
@@ -148,7 +148,7 @@ Herefter tager hjemløselandsholdstræner Rikke Sparving sammen med nogle OMBOLD
 
                 // Workshop 11
 		Workshop::create(array(
-			'title' => 'Long living – bæredygtighed',
+			'title' => 'Long living - bæredygtighed',
                         'subtitle' => '',
 			'description' => 'Trænger du til en dag med fordybelse og mindfulness? Kunne du tænke dig at lære om bæredygtighed på en ny og interessant måde? Drømmer du om at gøre en forskel? Så meld dig til vores workshop, hvor vi både skal se film, debattere og lave forskellige sjove øvelser for at blive klogere på, hvad bæredygtighed egentlig handler om.
 I vil lære om bæredygtighed, samt hvilke konsekvenser vores stigende forbrug i samfundet har på klodens natur, befolkning og dyr. Samtidig vil I lære, hvordan vi hver især kan være med til at gøre en forskel. Vi fokuserer derfor på en indre fordybelse hos det enkelte individ, dette med henblik på at opnå en dybere forståelse for en indre selv- og verdensopfattelse.
@@ -191,7 +191,7 @@ Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passio
 
                 // Workshop 15
 		Workshop::create(array(
-			'title' => 'Fanger der synger og fortæller ­ og sangskrivning',
+			'title' => 'Fanger der synger og fortæller - og sangskrivning',
                         'subtitle' => '',
 			'description' => '',
 			'teaser_image' => '',
@@ -240,7 +240,7 @@ I denne workshop hører deltagerne først et oplæg ved Aldin. Herefter ser vi f
 
                 // Workshop 19
 		Workshop::create(array(
-			'title' => 'Politisk kommunikation ­ design af symboler og logokunst',
+			'title' => 'Politisk kommunikation - design af symboler og logokunst',
                         'subtitle' => '',
 			'description' => 'I skal designe et logo for OEG GØR EN FORSKEL, som skal bruges fremover på skolens hjemmeside, plakater, batches m.m.
 Vi arbejder først med lidt research af forskellige politiske bevægelsers logoer, som har haft stor symbolsk betydning. Fx Paraplyrevolutionen i HongKong, Det Arabiske Forår m.fl. Herefter arbejder vi praktisk med design af logoer, og hvis vi når det, designer vi plakater til næste års GØR EN FORSKEL DAG.
@@ -253,7 +253,7 @@ Vi glæder os til at se jer til en kreativ dag med fokus på logoer og symboler,
 
                 // Workshop 20
 		Workshop::create(array(
-			'title' => 'PR­workshop: Produktion af trailer for GEF i TV­studiet',
+			'title' => 'PR-workshop: Produktion af trailer for GEF i TV­studiet',
                         'subtitle' => '',
 			'description' => 'Har du lyst til at komme ind i kontrolrummet i TV­studiet og prøve at være producer, billedmixer eller titler? Eller måske prøve at styre ét af kameraerne i studiet eller være vært foran kameraet? Så skal du tilmelde dig denne workshop, hvor vi skal producere en trailer til næste års Gør en forskel­dag.
 Du behøver ikke at være medie+­elev eller have nogen praktisk erfaring med tv-produktion, da elever fra den erfarne samlingsredaktion vil guide og forklare alt undervejs – du skal bare have lyst til at kaste dig ud i det med entusiasme og gå­på­mod!
@@ -290,7 +290,7 @@ Det er en fordel hvis du kan et mellemøstligt sprog på denne workshop ­ men d
 
                 // Workshop 23
 		Workshop::create(array(
-			'title' => 'Social Media love­storm',
+			'title' => 'Social Media love-storm',
                         'subtitle' => '',
 			'description' => 'På den her workshop bliver din opgave at dække OEG Gør En Forskel til de sociale medier.
 Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en kampagne sammen sammen på forskellige sociale medier, og hvordan man slår igennem med ”en god sag”. Vi bruger denne viden til at udtænke en plan for, hvordan man bedst kan gøre opmærksom på ”OEG Gør En Forskel”­dagen, og det arbejde, som eleverne laver. Herefter bliver I sluppet løs og tager ud til forskellige workshops og arrangementer, for at finde de gode historier og de bedste billeder, som vi publicerer via skolens Facebook, Instagram, hjemmeside – og hvem ved, måske hopper vi også med på Snapchat-vognen!',
@@ -301,7 +301,7 @@ Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en
 
                 // Workshop 24
 		Workshop::create(array(
-			'title' => 'Rapworkshop ­ sæt ord på diskrimination',
+			'title' => 'Rapworkshop - sæt ord på diskrimination',
                         'subtitle' => '',
 			'description' => 'Kreativ rap­workshop, hvor I arbejder med at skrive og performe rap om diskrimination og hadforbrydelser. RAPOLITICS er en udtryksform, som kan bruges til at få sat ord på diskrimination og hadforbrydelser. Arrangementet består af en række praktiske øvelser, der giver de unge tilskuere en meget deltagende rolle. Publikum diskuterer, reflekterer og udfører rap­teksterne.  De unge facilitatorer sikrer, at publikum får mulighed for at beskæftige sig med alvorlige emner på kreativ vis. Det kan være emner, som kommer ind på: Hvad diskrimination er
 ● Hvilke former kan diskrimination, der findes
@@ -362,7 +362,7 @@ Lån dem på Menneskebiblioteket og opdag, at her er mere gemt end omslaget give
 		));
                 // Workshop 29
 		Workshop::create(array(
-			'title' => 'Islam, jødedom og kristendom ­ er vi så forskellige?',
+			'title' => 'Islam, jødedom og kristendom - er vi så forskellige?',
                         'subtitle' => '',
 			'description' => 'Din Tro – Min Tro tilbyder besøg af en jøde, en kristen og en muslim, der fortæller om forskelle og ligheder mellem de tre religioner
 Oplægsholderne vil især komme ind på:
