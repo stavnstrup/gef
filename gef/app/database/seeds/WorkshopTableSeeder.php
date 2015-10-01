@@ -10,6 +10,7 @@ class WorkshopTableSeeder extends Seeder
 
                 // Workshop 1
 		Workshop::create(array(
+			'wstype' => 'address',
 			'title' => 'Soldat for en dag for både piger og drenge',
                         'subtitle' => '',
 			'description' => 'Vil du være “soldat for en dag”, så tag med til garderkasernen i Høvelte. Her trækker du i
@@ -41,6 +42,7 @@ Masser af kærlighed fra Amnesty­gruppen Humørikonet heart Humørikonet heart'
 
                 // Workshop 3
 		Workshop::create(array(
+			'wstype' => 'od.have.job',
 			'title' => 'Operation Dagsværk workshop (du finder selv job)',
                         'subtitle' => '',
 			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en
@@ -56,6 +58,7 @@ ind til årets sag.',
 
                 // Workshop 4
 		Workshop::create(array(
+			'wstype' => 'od',
 			'title' => 'Operation Dagsværk workshop (vi finder job for dig)',
                         'subtitle' => '',
 			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en
