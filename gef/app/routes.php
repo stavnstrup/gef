@@ -175,7 +175,11 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
 Route::get('od/tilmelding/har/arbejde', function()
 {
 //      $ws = Workshop::where('isODworkshop', '=', 'true')->get();
-      $ws = Workshop::find(3);
+//      $ws = Workshop::find(3);
+      $ws = Workshop::where('wstype', '=', 'od.have.job')->first();
+
+
+
 
 //    foreach (Workshop::where('freeplaces', '>', '0')->select('id', 'name')->orderBy('id','asc')->get() as $name)
 //    {
@@ -197,7 +201,8 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 
     $data = Input::All();
 
-    $ws =  Workshop::find(3);
+//    $ws =  Workshop::find(3);
+    $ws = Workshop::where('wstype','od.have.job')->first();
 
     $rules = array (
         'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
@@ -264,13 +269,7 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 
 Route::get('od/tilmelding', function()
 {
-//      $ws = Workshop::where('isODworkshop', '=', 'true')->get();
-      $ws = Workshop::find(4);
-
-//    foreach (Workshop::where('freeplaces', '>', '0')->select('id', 'name')->orderBy('id','asc')->get() as $name)
-//    {
-//        $names[$name->id] = $name->name;
-//    }
+    $ws = Workshop::where('wstype','od.want.job')->first();
     return View::make('odtilmelding', compact('ws'));
 });
 
@@ -281,13 +280,11 @@ Route::get('od/tilmelding', function()
 
 Route::post('od/tilmelding', array('before' => 'csrf', function()
 {
-
-    $ws =  Workshop::find(4);
-
+    $ws = Workshop::where('wstype', '=', 'od.want.job')->first();
+    
     $data = Input::All();
 
     $rules = array (
-//        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
         'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
@@ -351,14 +348,15 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
 
 
 
-    Route::get('kun/for/you/know/who', function()
-    {
+Route::get('kun/for/you/know/who', function()
+{
        return View::make('adminMain');
 
-    });
+});
 
-    Route::get('kun/for/you/know/who/live', function()
-    {
+
+Route::get('kun/for/you/know/who/live', function()
+{
         $workshops =  Workshop::get(array('id', 'title','freeplaces'));
 
  	return View::make('live',
