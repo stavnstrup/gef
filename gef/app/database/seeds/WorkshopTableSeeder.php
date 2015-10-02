@@ -193,7 +193,7 @@ Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passio
 		Workshop::create(array(
 			'title' => 'Fanger der synger og fortæller - og sangskrivning',
                         'subtitle' => '',
-			'description' => '',
+			'description' => 'Denne workshop er for dig, der gerne vil lære mere om, hvordan man formulerer personlige sang- /raptekster og sætter musik til disse. Workshoppen  indledes med at korlederen for “Fangekoret”, Louise Adrian, fortæller om, hvordan det at være med i fangekoret gør en forskel for indsatte og tidligere indsatte i Vridsløselille Statsfængsel. Herefter synger og rapper 2­3 kriminelle om deres liv og giver jer derved indblik i hvordan livet er som indsat og kriminel. Efter frokost tager I selv arbejdshandskerne på og udarbejder tekster med udgangspunkt i eget liv. Musiker og sangskriver, Benjamin Aggerbæk, guider jer i god tekstskrivning og sange, som I sætter musik til.',
 			'teaser_image' => '',
 			'freeplaces' => 20,
                         'uri' => '',
