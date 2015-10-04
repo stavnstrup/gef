@@ -19,7 +19,7 @@
         <h1 class="logotype">
           <a href="/" title="Hjem"><img src="{{asset('img/logo.png')}}" alt="Hjem" />
           </a>
-          <a href="/" class="site-name" title="Hjem">Ørestad Gymnasium - Gør en forskel - 2015</a>
+          <a href="/" class="site-name" title="Hjem">Ørestad Gymnasium gør en forskel - 4/11 2015</a>
         </h1>
       </div>
     </div>
