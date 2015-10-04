@@ -9,8 +9,7 @@
      
      <h2>Din tilmelding er accepteret</h2>
 
-     <p>Tak for din tilmelding. Vi ses på GEF dagen d. 5. november.</p>
-
+     <p>Tak for din tilmelding. Vi ses på GEF dagen d. 4. november.</p>
 
     </div>
   </div>

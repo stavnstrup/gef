@@ -16,6 +16,7 @@
   <ul>
    <li><a href="/kun/for/you/know/who/live">Tilmeldinger live</a> - Siden opdateres hvert minut.</li>
    <li><a href="/kun/for/you/know/who/tilmeldinger">Vis alle tilmeldinger</a> - Listen er inklusiv OD tilmeldinger.</li>
+   <li><a href="/kun/for/you/know/who/soldattilmeldinger">Kun tilmeldinger til forsvaret</a></li>
    <li><a href="/kun/for/you/know/who/odtilmeldinger">Kun OD tilmeldinger</a> - Indeholder data fra begge OD workshops.</li>
    <li><a href="/tilmeldingsfordeling">Vis antallet af tilmeldte/ikke tilmeldte elever i alle klasser.</a></li>
   </ul>
@@ -28,6 +29,7 @@
      <li>Gå til formularfeltet og indsæt følgende text
        <ul>
          <li>For alle tilmeldinger skrives: <span class="tt">=IMPORTHTML("http://gef.nw3.dk/kun/for/you/know/who/tilmeldinger","table",1)</span></li>
+         <li>For alle tilmeldinger til forsvaret skrives: <span class="tt">=IMPORTHTML("http://gef.nw3.dk/kun/for/you/know/who/soldattilmeldinger","table",1)</span></li>
          <li>For alle OD tilmeldinger skrives: <span class="tt">=IMPORTHTML("http://gef.nw3.dk/kun/for/you/know/who/odtilmeldinger","table",1)</span></li>
        </ul>
      </li>

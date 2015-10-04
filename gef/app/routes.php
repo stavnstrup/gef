@@ -181,7 +181,7 @@ Route::get('soldat/tilmelding', function()
 });
 
 
-Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
+Route::post('soldat/tilmelding', array('before' => 'csrf', function()
 {
 
     $data = Input::All();
@@ -227,9 +227,9 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
             $pupil->lastname = ucfirst(Input::get('lastname'));
             $pupil->workshop_id = $ws->id;
 	    
-            $pupil->road = Input::get('road');
+            $pupil->road = ucfirst(Input::get('road'));
             $pupil->zip = Input::get('zip');
-            $pupil->town = Input::get('town');
+            $pupil->town = ucfirst(Input::get('town'));
             $pupil->save();
 
             return View::make('accepteret');
@@ -240,8 +240,8 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
           return View::make('overtegnet');
         }
 
-   }
-});
+    }
+}));
 
 
 
@@ -441,7 +441,7 @@ Route::get('kun/for/you/know/who/live', function()
                  'od' => Pupil::where('workshop_id', '=', '3')->orWhere('workshop_id', '=', '4')->count(),
                  'wsall' => compact('workshops')
            ));
-    });
+});
 
 
 
@@ -454,6 +454,18 @@ Route::get('kun/for/you/know/who/tilmeldinger', function()
 {
     $pupils =  Pupil::get(array('pupilid','firstname','lastname','workshop_id'));
     return View::make('tilmeldinger', compact('pupils'));
+});
+
+// ---------------------
+// List all tilmeldinger
+// ---------------------
+
+
+// List alle tilmeldinger til forsvaret
+Route::get('kun/for/you/know/who/soldattilmeldinger', function()
+{
+    $pupils =  Pupil::where('workshop_id', '=', '1')->get();
+    return View::make('soldattilmeldinger', compact('pupils'));
 });
 
 
