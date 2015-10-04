@@ -16,6 +16,6 @@
   </head> 
   <body> 
     <div id="floater"></div> 
-    <div id="content">OEG - Gør en forskel - 2015<br/>Vi åbner for tilmeldinger<br />tirdag d. 6. oktober</div> 
+    <div id="content">OEG - Gør en forskel - 2015<br/>Vi åbner for tilmeldinger<br />tirsdag d. 6. oktober</div> 
   </body> 
  </html>
