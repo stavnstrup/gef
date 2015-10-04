@@ -26,6 +26,10 @@ Route::get('/', function()
 });
 
 
+// ------------------------------------
+// Show all participants in a Workshop
+// ------------------------------------
+
 
 Route::get('deltagere/{wid}', function($wid)
 {
@@ -166,6 +170,80 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
     }
 }));
 
+// -------------------------------------------------------------
+// Vis tilmeldingsform for forsvarsdag
+// -------------------------------------------------------------
+
+Route::get('soldat/tilmelding', function()
+{
+    $ws = Workshop::find(1);
+    return View::make('soldat', compact('ws'));
+});
+
+
+Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
+{
+
+    $data = Input::All();
+    $ws = Workshop::find(1);
+
+    $rules = array (
+        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
+        'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
+        'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
+        'zip' => array('required', 'size:4'),
+        'town' => 'required',
+        'road' => 'required',
+    );
+
+    $messages = array (
+        'required' => 'Dette felt skal udfyldes',
+        'regex' => 'Fejl i input'
+    );
+
+    // Create a new validator instance.
+    $validator = Validator::make($data, $rules, $messages);
+
+    if ($validator->fails()) {
+       return Redirect::to('soldat/tilmelding')->withInput($data)->withErrors($validator);
+    } else {
+
+        $oldregistration = Pupil::where('pupilid', '=', Input::get('pupilid'))->where(
+             'firstname', '=', ucfirst(Input::get('firstname')))->where(
+             'lastname', '=', ucfirst(Input::get('lastname')))->get();
+        if ($oldregistration->Count()>0)
+        {
+           return View::make('afvist');
+        }
+
+        if ($ws->freeplaces > 0)
+        {
+            $ws->freeplaces = $ws->freeplaces - 1;
+            $ws->save();
+            $pupil = new Pupil;
+            $pupil->pupilid = Input::get('pupilid');
+
+            $pupil->firstname = ucfirst(Input::get('firstname'));
+            $pupil->lastname = ucfirst(Input::get('lastname'));
+            $pupil->workshop_id = $ws->id;
+	    
+            $pupil->road = Input::get('road');
+            $pupil->zip = Input::get('zip');
+            $pupil->town = Input::get('town');
+            $pupil->save();
+
+            return View::make('accepteret');
+
+
+        } else {
+          // Sidste plads på denne workshop er taget af en anden bruger
+          return View::make('overtegnet');
+        }
+
+   }
+});
+
+
 
 
 // -------------------------------------------------------------
@@ -189,6 +267,7 @@ Route::get('od/tilmelding/har/arbejde', function()
 });
 
 
+
 // --------------------------------------------------------------------------
 // Create new tilmelding in Operation Dagsværk workshop (Jeg skaffer arbejde)
 // --------------------------------------------------------------------------
@@ -200,8 +279,6 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 {
 
     $data = Input::All();
-
-//    $ws =  Workshop::find(3);
     $ws = Workshop::where('wstype','od.have.job')->first();
 
     $rules = array (

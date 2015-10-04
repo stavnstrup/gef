@@ -23,6 +23,9 @@ class CreatePupilsTable extends Migration {
 			$table->integer('phone')->unsigned();
 			$table->string('email');
                         $table->string('workplace');
+			$table->string('road');
+			$table->integer('zip')->unsigned();
+                        $table->string('town');
                         $table->integer('workshop_id')->unsigned();
 			$table->foreign('workshop_id')->references('id')->on('workshops');
 			$table->timestamps();
