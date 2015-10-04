@@ -17,7 +17,7 @@ class WorkshopTableSeeder extends Seeder
 uniform og deltager i skydning og opgavemarch med masser af aktionfyldte aktiviteter. Du 
 prøver også en feltforhindringsbane og får en feltration til frokost i det grønne. Eftermiddagen 
 bruges til foredrag og film om soldaters uddannelser og om, hvordan de kan være med til at 
-gøre en forskel i verden. Du skal være iført praktisk fodtøj og du skal påføre din adresse på 
+gøre en forskel i verden. Du skal være iført <strong>praktisk fodtøj</strong> og du skal påføre <strong>din adresse</strong> på 
 tilmeldingen sammen med dit navn.',
 			'teaser_image' => '01a-skydebane.jpg',
 			'freeplaces' => 100,
@@ -31,10 +31,10 @@ tilmeldingen sammen med dit navn.',
                         'subtitle' => '',
 			'description' => 'Meld dig til Amnesty\'s workshop for at få en hyggelig dag med menneskerettigheder og
 kreativitet i fokus.
-Dagen starter ud med et oplæg fra Amnesty om deres aktuelle case, hvor man bliver sat ind i , hvad organisationen går ud på. Her efter vil i blive sat i gang med enten at skrive breve, lave plakater og andet hygge. Under hele dagen vil der køre en konkurrence, hvor der er en særlig præmie i spil.
-Hvis du er frisk på en hyggelig dag, med plakat-lavning og "Skriv for liv" så er dette workshoppen til dig!
-Håber vi ses!
-Masser af kærlighed fra Amnesty-gruppen Humørikonet heart Humørikonet heart',
+<p>Dagen starter ud med et oplæg fra Amnesty om deres aktuelle case, hvor man bliver sat ind i , hvad organisationen går ud på. Her efter vil i blive sat i gang med enten at skrive breve, lave plakater og andet hygge. Under hele dagen vil der køre en konkurrence, hvor der er en særlig præmie i spil.</p>
+<p>Hvis du er frisk på en hyggelig dag, med plakat-lavning og "Skriv for liv" så er dette workshoppen til dig!</p>
+<p>Håber vi ses!</p>
+<p>Masser af kærlighed fra Amnesty-gruppen Humørikonet heart Humørikonet heart</p>',
 			'teaser_image' => '02-amnesty.png',
 			'freeplaces' => 30,
                         'uri' => 'http://amnesty.dk',
@@ -47,11 +47,11 @@ Masser af kærlighed fra Amnesty-gruppen Humørikonet heart Humørikonet heart',
                         'subtitle' => '',
 			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en specifik sag via en oplysningskampagne. Dette munder ud i den store Operation Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge ind til årets sag. I år er projektet “Unge i Somaliland skal have en stemme!”
 
-Undertrykkelse, diskrimination og tvangsægteskaber er en del af hverdagen for unge i Somaliland. Derfor vil Operation Dagsværk og SOS Børnebyerne give 15.000 gymnasieelever i Somaliland viden og redskaber til at forme deres egen fremtid.   
+<p>Undertrykkelse, diskrimination og tvangsægteskaber er en del af hverdagen for unge i Somaliland. Derfor vil Operation Dagsværk og SOS Børnebyerne give 15.000 gymnasieelever i Somaliland viden og redskaber til at forme deres egen fremtid.</p>
 
-Børn og unge udgør størstedelen af befolkningen i Somaliland. Alligevel er det udelukkende gamle mænd, som sidder solidt på magten. Unge fratages muligheden for uddannelse, bliver tvangsgift og unge piger bliver omskåret og får ofte deres første barn allerede som teenagere. Mange unge har derfor aldrig lært at ytre sig, have en mening eller stå ved den.
+<p>Børn og unge udgør størstedelen af befolkningen i Somaliland. Alligevel er det udelukkende gamle mænd, som sidder solidt på magten. Unge fratages muligheden for uddannelse, bliver tvangsgift og unge piger bliver omskåret og får ofte deres første barn allerede som teenagere. Mange unge har derfor aldrig lært at ytre sig, have en mening eller stå ved den.</p>
 
-Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland en stemme, så de kan lære at sige fra. Projektet vil starte elevråd på ti gymnasier i Somaliland og gennem aktiviteter på gymnasierne træne 15.000 elever i deres rettigheder, viden om uddannelsespolitik og i at føre kampagner med gennemslagskraft, der rækker ud blandt unge i hele samfundet og ind til magthaverne. Sammen vil Operation Dagsværk og SOS Børnebyerne skabe kritisk tænkende og velorganiserede unge mennesker i Somaliland, der bliver talspersoner for hele deres generation.',
+<p>Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland en stemme, så de kan lære at sige fra. Projektet vil starte elevråd på ti gymnasier i Somaliland og gennem aktiviteter på gymnasierne træne 15.000 elever i deres rettigheder, viden om uddannelsespolitik og i at føre kampagner med gennemslagskraft, der rækker ud blandt unge i hele samfundet og ind til magthaverne. Sammen vil Operation Dagsværk og SOS Børnebyerne skabe kritisk tænkende og velorganiserede unge mennesker i Somaliland, der bliver talspersoner for hele deres generation.</p>',
 			'teaser_image' => '03-OD2015.jpg',
 			'freeplaces' => 70,
                         'isODworkshop' => true,
@@ -66,11 +66,11 @@ Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland e
                         'subtitle' => '',
 			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en specifik sag via en oplysningskampagne. Dette munder ud i den store Operation Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge ind til årets sag. I år er projektet “Unge i Somaliland skal have en stemme!”
 
-Undertrykkelse, diskrimination og tvangsægteskaber er en del af hverdagen for unge i Somaliland. Derfor vil Operation Dagsværk og SOS Børnebyerne give 15.000 gymnasieelever i Somaliland viden og redskaber til at forme deres egen fremtid.   
+<p>Undertrykkelse, diskrimination og tvangsægteskaber er en del af hverdagen for unge i Somaliland. Derfor vil Operation Dagsværk og SOS Børnebyerne give 15.000 gymnasieelever i Somaliland viden og redskaber til at forme deres egen fremtid.</p>
 
-Børn og unge udgør størstedelen af befolkningen i Somaliland. Alligevel er det udelukkende gamle mænd, som sidder solidt på magten. Unge fratages muligheden for uddannelse, bliver tvangsgift og unge piger bliver omskåret og får ofte deres første barn allerede som teenagere. Mange unge har derfor aldrig lært at ytre sig, have en mening eller stå ved den.
+<p>Børn og unge udgør størstedelen af befolkningen i Somaliland. Alligevel er det udelukkende gamle mænd, som sidder solidt på magten. Unge fratages muligheden for uddannelse, bliver tvangsgift og unge piger bliver omskåret og får ofte deres første barn allerede som teenagere. Mange unge har derfor aldrig lært at ytre sig, have en mening eller stå ved den.</p>
 
-Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland en stemme, så de kan lære at sige fra. Projektet vil starte elevråd på ti gymnasier i Somaliland og gennem aktiviteter på gymnasierne træne 15.000 elever i deres rettigheder, viden om uddannelsespolitik og i at føre kampagner med gennemslagskraft, der rækker ud blandt unge i hele samfundet og ind til magthaverne. Sammen vil Operation Dagsværk og SOS Børnebyerne skabe kritisk tænkende og velorganiserede unge mennesker i Somaliland, der bliver talspersoner for hele deres generation.',			
+<p>Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland en stemme, så de kan lære at sige fra. Projektet vil starte elevråd på ti gymnasier i Somaliland og gennem aktiviteter på gymnasierne træne 15.000 elever i deres rettigheder, viden om uddannelsespolitik og i at føre kampagner med gennemslagskraft, der rækker ud blandt unge i hele samfundet og ind til magthaverne. Sammen vil Operation Dagsværk og SOS Børnebyerne skabe kritisk tænkende og velorganiserede unge mennesker i Somaliland, der bliver talspersoner for hele deres generation.</p>',			
 			'teaser_image' => '03-OD2015.jpg',
 			'freeplaces' => 30,
                         'isODworkshop' => true,
@@ -82,9 +82,9 @@ Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland e
 		Workshop::create(array(
 			'title' => 'Når generationer mødes',
                         'subtitle' => '',
-			'description' => 'I denne workshop mødes unge og ældre generationer. Vil du være med til at hjælpe ældre mennesker med at bruge en computer eller en iPad? Eller er du villig til at høre deres(de ældres) historier, lave en debat, lære at strikke, samt spille kortspil? For at være med i denne workshop skal du have lyst til at gøre en forskel for ældre mennesker og dig selv, og så skal du huske din computer eller iPad, til når vi skal ud af huset for at møde de ældre. Vi lover at det bliver en super hyggelig dag med anderledes oplevelser, både for unge og ældre. 
-”Jeg synes at det var en sjov og lærerig dag sammen med de ældre på Sløjfen, da jeg følte at jeg gjorde en forskel. Men jeg synes også at de gjorde en forskel for mig, da jeg lærte om mine medmennesker fra den ældre generation.” - Cecilie 3.b
-“Jeg forventede, at vi skulle snakke med pensionisterne om gamle dage og bare hygge med dem, men ikke rigtig andet da de sikkert ville være for gamle til at få en rigtig samtale kørende. Jeg tog rigtig meget fejl. Det var et rigtig fedt initiativ fra elevernes side og noget jeg helt sikker vil se frem til næste år.” - Niels 3.b',
+			'description' => 'I denne workshop mødes unge og ældre generationer. Vil du være med til at hjælpe ældre mennesker med at bruge en computer eller en iPad? Eller er du villig til at høre deres(de ældres) historier, lave en debat, lære at strikke, samt spille kortspil? For at være med i denne workshop skal du have lyst til at gøre en forskel for ældre mennesker og dig selv, og så skal du huske din computer eller iPad, til når vi skal ud af huset for at møde de ældre. Vi lover at det bliver en super hyggelig dag med anderledes oplevelser, både for unge og ældre.
+<p><i>”Jeg synes at det var en sjov og lærerig dag sammen med de ældre på Sløjfen, da jeg følte at jeg gjorde en forskel. Men jeg synes også at de gjorde en forskel for mig, da jeg lærte om mine medmennesker fra den ældre generation.”</i> - Cecilie 3.b</p>
+<p><i>“Jeg forventede, at vi skulle snakke med pensionisterne om gamle dage og bare hygge med dem, men ikke rigtig andet da de sikkert ville være for gamle til at få en rigtig samtale kørende. Jeg tog rigtig meget fejl. Det var et rigtig fedt initiativ fra elevernes side og noget jeg helt sikker vil se frem til næste år.”</i> - Niels 3.b</p>',
 			'teaser_image' => '',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -97,9 +97,9 @@ Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland e
                         'subtitle' => 'Gå på café, brug din smartphone og gør en forskel.',
 			'description' => 'Lyder det for godt til at være sandt? Det er det ikke. På dagens workshop skal I nemlig ud i byen sammen og anmelde cafeer, biografer og butikker ved hjælp af vores nye app Glad Tur. Men det handler ikke om kvaliteten på maden eller hvor hyggeligt der er. I skal anmelde stedernes tilgængelighed. Er der fx trapper ved indgangen, plads til en kørestol, mulighed for hjælp? Det er ganske enkelt at anmelde i app’en, men gør en stor forskel for mennesker med handicap, deres venner og familie! Samtidig bidrager du til et rigere og mere mangfoldigt samfund til glæde for os alle sammen. 
 
-Dagen starter hos Glad Fonden hvor vi først vil fortælle om hvordan vi i Glad Fonden ansætter og uddanner mennesker med og uden handicap. Sammen  laver vi mad, teater, radio, tv og meget mere. Måske kender du os fra Tv-Glad? Derefter vil I blive introduceret til Glad Tur app’en og gå ud og anmelde byen I små grupper. Det hold der får anmeldt flest steder på dagen vinder et gavekort til et cafébesøg. Vi slutter dagen hos Glad Fonden og  kårer vinderen af konkurrencen. 
+<p>Dagen starter hos Glad Fonden hvor vi først vil fortælle om hvordan vi i Glad Fonden ansætter og uddanner mennesker med og uden handicap. Sammen  laver vi mad, teater, radio, tv og meget mere. Måske kender du os fra Tv-Glad? Derefter vil I blive introduceret til Glad Tur app’en og gå ud og anmelde byen I små grupper. Det hold der får anmeldt flest steder på dagen vinder et gavekort til et cafébesøg. Vi slutter dagen hos Glad Fonden og  kårer vinderen af konkurrencen.</p>
 
-"Vi tror på, at mennesker med forskellige forudsætninger er et aktiv, der kan gøre det samfund vi bor i rigere, gladere og mere inspirerende.”',
+<p><i>"Vi tror på, at mennesker med forskellige forudsætninger er et aktiv, der kan gøre det samfund vi bor i rigere, gladere og mere inspirerende.”</i></p>',
 			'teaser_image' => '06-gladtur.jpg',
 			'freeplaces' => 75,
                         'uri' => '',
@@ -123,8 +123,8 @@ Nu har du chancen for at gøre matematiklæring til en leg for skolebørn. I et 
 			'title' => 'Hvordan fodbold kan gøre en forskel - for hjemløse',
                         'subtitle' => '',
 			'description' => 'Organisationen OMBOLD, som står bag Danmarks hjemløselandshold i fodbold, kommer og holder et oplæg om deres landshold, samt hvordan fodbold kan gøre en forskel for hjemløse og udsatte mennesker.
-Herefter tager hjemløselandsholdstræner Rikke Sparving sammen med nogle OMBOLD spillere eleverne med på banen i byparken og laver en miniturnering ud fra de principper som OMBOLD bruger for at få samfundets allermest idrætssvage grupper op ad sofaen og ud på banen
-– Nemlig at det først og fremmest handler om at have det sjovt.',
+<p>Herefter tager hjemløselandsholdstræner Rikke Sparving sammen med nogle OMBOLD spillere eleverne med på banen i byparken og laver en miniturnering ud fra de principper som OMBOLD bruger for at få samfundets allermest idrætssvage grupper op ad sofaen og ud på banen
+– Nemlig at det først og fremmest handler om at have det sjovt.</p>',
 			'teaser_image' => '08-ombold.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -178,9 +178,9 @@ Alle kan være med - uanset om du kender til bæredygtighed eller ej.',
 		Workshop::create(array(
 			'title' => 'Afrikansk dans og trommespil og Frivillig i Ghana',
                         'subtitle' => '',
-			'description' => 'I denne workshop vil du lære ægte afrikansk dans og trommespil, som giver glæde og afstressning. I programmet er der også et oplæg om, hvordan man kan gøre en forskel som frivillig i Ghana. Som der står på sitet afrikanskdansk.dk: “Ghana og dens indbyggere er en fantastisk oplevelse. Ghana er et af de fredeligste lande i Afrika og indbyggerne er utrolig imødekommende, hjælpsomme og kærlige. (...) Som frivillig på vores projekt kan du nemlig få lov at prøve kræfter med lige netop dét, du brænder for. 
-Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passion for børn, elsker at være kreativ og praktisk, brænder for at undervise, er bidt af en computer eller noget helt andet, ja så har du muligheden for at få det afprøvet nu.”
-På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på tromme. Alle kan være med!',
+			'description' => 'I denne workshop vil du lære ægte afrikansk dans og trommespil, som giver glæde og afstressning. I programmet er der også et oplæg om, hvordan man kan gøre en forskel som frivillig i Ghana. Som der står på sitet afrikanskdansk.dk: <i>“Ghana og dens indbyggere er en fantastisk oplevelse. Ghana er et af de fredeligste lande i Afrika og indbyggerne er utrolig imødekommende, hjælpsomme og kærlige. (...) Som frivillig på vores projekt kan du nemlig få lov at prøve kræfter med lige netop dét, du brænder for. 
+Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passion for børn, elsker at være kreativ og praktisk, brænder for at undervise, er bidt af en computer eller noget helt andet, ja så har du muligheden for at få det afprøvet nu.”</i>
+<p>På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på tromme. Alle kan være med!</p>',
 			'teaser_image' => '13-sawa.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -221,7 +221,7 @@ På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på
 			'title' => 'Varme til krop og sjæl',
                         'subtitle' => '',
 			'description' => 'Sammen med AVITAE-gruppen, kan du være med til at få et indblik i middelalderens køkken, være med til at lave god suppe og godt brød, som man kunne have spist den gang. Når maden er lavet, skal vi dele suppen ud ved metroen eller biblioteket med ordene "Varme til krop og sjæl". Vi skal have brandet at vi vil glæde folk med en varm kop suppe på en kold novemberdag, og lidt om hvordan den er blevet til. Så kom frisk til en varm workshop til glæde for krop og sjæl.
-Link til Avitae gruppens ekskursion til Middelaldercenteret ved Nykøbing Falster, hvor vi lærte at lave mad som i middelalderen her',
+<p>Link til Avitae gruppens ekskursion til Middelaldercenteret ved Nykøbing Falster, hvor vi lærte at lave mad som i middelalderen her</p>',
 			'teaser_image' => '17-varme.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -235,7 +235,7 @@ Link til Avitae gruppens ekskursion til Middelaldercenteret ved Nykøbing Falste
                         'subtitle' => '',
 			'description' => 'Aldin Lemes er bosnier og er født i byen Srebrenica. Under krigen i Bosnien fandt der i 1995 et folkedrab sted i Srebrenica, hvor mere end 7.500 drenge og mænd blev dræbt. Aldin overværede som barn folkedrabet og så med sine egne øjne landsbyer blive brændt ned. I sit foredrag fortæller han om, hvilken rolle disse billeder spiller for ham i dag, og hvordan man kommer videre med sit liv efter at have været vidne til et folkedrab.
 
-I denne workshop hører deltagerne først et oplæg ved Aldin. Herefter ser vi filmen "Hotel Rwanda”, der omhandler folkedrabet i Rwanda i 1994. Efter disse to vinker på folkedrab diskuteres folkedrab og menneskerettigheder, og vi skal gøre OEG opmærksom på disse. Vi bruger vores kreativitet til formidling af menneskerettighederne, fx. med posters, happenings eller innovativ formidling. Der bliver brug for at være kreativ. Vi kræver ikke andet end at have lyst til at deltage i et bragende spændende oplæg og ville udfordre OEG-folket!',
+<p>I denne workshop hører deltagerne først et oplæg ved Aldin. Herefter ser vi filmen "Hotel Rwanda”, der omhandler folkedrabet i Rwanda i 1994. Efter disse to vinker på folkedrab diskuteres folkedrab og menneskerettigheder, og vi skal gøre OEG opmærksom på disse. Vi bruger vores kreativitet til formidling af menneskerettighederne, fx. med posters, happenings eller innovativ formidling. Der bliver brug for at være kreativ. Vi kræver ikke andet end at have lyst til at deltage i et bragende spændende oplæg og ville udfordre OEG-folket!</p>',
 
 			'teaser_image' => '18b-srebrenica-djecak-tabuti-afpgetty.jpg',
 			'freeplaces' => 40,
@@ -249,8 +249,8 @@ I denne workshop hører deltagerne først et oplæg ved Aldin. Herefter ser vi f
 			'title' => 'Politisk kommunikation - design af symboler og logokunst',
                         'subtitle' => '',
 			'description' => 'I skal designe et logo for OEG GØR EN FORSKEL, som skal bruges fremover på skolens hjemmeside, plakater, batches m.m.
-Vi arbejder først med lidt research af forskellige politiske bevægelsers logoer, som har haft stor symbolsk betydning. Fx Paraplyrevolutionen i HongKong, Det Arabiske Forår m.fl. Herefter arbejder vi praktisk med design af logoer, og hvis vi når det, designer vi plakater til næste års GØR EN FORSKEL DAG.
-Vi glæder os til at se jer til en kreativ dag med fokus på logoer og symboler, der gør en forskel!',
+<p>Vi arbejder først med lidt research af forskellige politiske bevægelsers logoer, som har haft stor symbolsk betydning. Fx Paraplyrevolutionen i HongKong, Det Arabiske Forår m.fl. Herefter arbejder vi praktisk med design af logoer, og hvis vi når det, designer vi plakater til næste års GØR EN FORSKEL DAG.</p>
+<p>Vi glæder os til at se jer til en kreativ dag med fokus på logoer og symboler, der gør en forskel!</p>',
 			'teaser_image' => '',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -262,8 +262,8 @@ Vi glæder os til at se jer til en kreativ dag med fokus på logoer og symboler,
 			'title' => 'PR-workshop: Produktion af trailer for GEF i TV-studiet',
                         'subtitle' => '',
 			'description' => 'Har du lyst til at komme ind i kontrolrummet i TV-studiet og prøve at være producer, billedmixer eller titler? Eller måske prøve at styre ét af kameraerne i studiet eller være vært foran kameraet? Så skal du tilmelde dig denne workshop, hvor vi skal producere en trailer til næste års Gør en forskel-dag.
-Du behøver ikke at være medie+-elev eller have nogen praktisk erfaring med tv-produktion, da elever fra den erfarne samlingsredaktion vil guide og forklare alt undervejs – du skal bare have lyst til at kaste dig ud i det med entusiasme og gå-på-mod!
-Vi håber at se dig til en dag med praktisk produktion i TV-studiet.',
+<p>Du behøver ikke at være medie+-elev eller have nogen praktisk erfaring med tv-produktion, da elever fra den erfarne samlingsredaktion vil guide og forklare alt undervejs – du skal bare have lyst til at kaste dig ud i det med entusiasme og gå-på-mod!</p>
+<p>Vi håber at se dig til en dag med praktisk produktion i TV-studiet.</p>',
 			'teaser_image' => '',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -274,9 +274,10 @@ Vi håber at se dig til en dag med praktisk produktion i TV-studiet.',
 			'title' => 'Rok og rul på plejehjemmet Søster Sophies Minde',
                         'subtitle' => '',
 			'description' => 'Kom og vær med i Diakonissestiftelsens frivillige fællesskab for en dag. Her kan du være med til at gøre en forskel i:
-VærkstedsLoppen (4-6 pers). I værkstedet mødes frivillige om at reparere, istandsætte og re-designe. Vi bruger vores hænder, vores evner og vores tid til gavn og glæde for andre.
-Tøjsortering i genbrugsbutikken Loppeshoppen(4-6 pers). I butikkerne sortere vi til salg i vores egen butik, til Frelsens Hær, til fibergenbrug og til kreative genbrugsværksteder. 
-Tre på tur (4-6 pers). Et rickshaw-cykeltilbud til vores beboere på plejehjemmet Søster Sophies Minde. Turene er med til at give de ældre vind i håret og en masse oplevelser og indtryk, de ellers ikke har mulighed for at få. Tit giver turene på cyklen god tid og mulighed for snakke om alt mellem himmel og jord.',
+<ul>
+<li>VærkstedsLoppen (4-6 pers). I værkstedet mødes frivillige om at reparere, istandsætte og re-designe. Vi bruger vores hænder, vores evner og vores tid til gavn og glæde for andre.</li>
+<li>Tøjsortering i genbrugsbutikken Loppeshoppen(4-6 pers). I butikkerne sortere vi til salg i vores egen butik, til Frelsens Hær, til fibergenbrug og til kreative genbrugsværksteder.</li>
+<li>Tre på tur (4-6 pers). Et rickshaw-cykeltilbud til vores beboere på plejehjemmet Søster Sophies Minde. Turene er med til at give de ældre vind i håret og en masse oplevelser og indtryk, de ellers ikke har mulighed for at få. Tit giver turene på cyklen god tid og mulighed for snakke om alt mellem himmel og jord.</li></ul>',
 			'teaser_image' => '21-sofie.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -288,7 +289,7 @@ Tre på tur (4-6 pers). Et rickshaw-cykeltilbud til vores beboere på plejehjemm
                         'subtitle' => '',
 			'description' => 'Dagen starter med at OEG elever i par planlægger en aktivitetsdag for 2 asylansøgere. Det kan være hjemmebesøg, sport, sightseeing i KBH osv. Herefter drager vi til Kongelunden Asylcenter, hvor 2 OEG’ere og 2 asylansøgere går sammen. 
 Asylansøgerne giver OEG’erne en lille rundvisning i deres gemakker på Kongelunden og herefter tager 4-mandsgupperne afsted på den planlagte aktivitetsdag - med OEG eleverne som guider. 
-Det er en fordel hvis du kan et mellemøstligt sprog på denne workshop - men det er absolut ikke et krav.',
+<p>Det er en fordel hvis du kan et mellemøstligt sprog på denne workshop - men det er absolut ikke et krav.</p>',
 			'teaser_image' => '',
 			'freeplaces' => 25,
                         'uri' => '',
@@ -299,7 +300,8 @@ Det er en fordel hvis du kan et mellemøstligt sprog på denne workshop - men de
 			'title' => 'Social Media love-storm',
                         'subtitle' => '',
 			'description' => 'På den her workshop bliver din opgave at dække OEG Gør En Forskel til de sociale medier.
-Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en kampagne sammen sammen på forskellige sociale medier, og hvordan man slår igennem med ”en god sag”. Vi bruger denne viden til at udtænke en plan for, hvordan man bedst kan gøre opmærksom på ”OEG Gør En Forskel”-dagen, og det arbejde, som eleverne laver. Herefter bliver I sluppet løs og tager ud til forskellige workshops og arrangementer, for at finde de gode historier og de bedste billeder, som vi publicerer via skolens Facebook, Instagram, hjemmeside – og hvem ved, måske hopper vi også med på Snapchat-vognen!',
+<p>Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en kampagne sammen sammen på forskellige sociale medier, og hvordan man slår igennem med ”en god sag”.</p>
+<p>Vi bruger denne viden til at udtænke en plan for, hvordan man bedst kan gøre opmærksom på ”OEG Gør En Forskel”-dagen, og det arbejde, som eleverne laver. Herefter bliver I sluppet løs og tager ud til forskellige workshops og arrangementer, for at finde de gode historier og de bedste billeder, som vi publicerer via skolens Facebook, Instagram, hjemmeside – og hvem ved, måske hopper vi også med på Snapchat-vognen!</p>',
 			'teaser_image' => '',
 			'freeplaces' => 20,
                         'uri' => '',
@@ -310,13 +312,16 @@ Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en
 			'title' => 'Rapworkshop - sæt ord på diskrimination',
                         'subtitle' => '',
 			'description' => 'Kreativ rap-workshop, hvor I arbejder med at skrive og performe rap om diskrimination og hadforbrydelser. RAPOLITICS er en udtryksform, som kan bruges til at få sat ord på diskrimination og hadforbrydelser. Arrangementet består af en række praktiske øvelser, der giver de unge tilskuere en meget deltagende rolle. Publikum diskuterer, reflekterer og udfører rap-teksterne.  De unge facilitatorer sikrer, at publikum får mulighed for at beskæftige sig med alvorlige emner på kreativ vis. Det kan være emner, som kommer ind på: Hvad diskrimination er
-● Hvilke former kan diskrimination, der findes
-● Hvor diskrimination kommer fra?
-● Hvilke konsekvenser det har, hvis diskrimination ikke stoppes?
+<ul>
+  <li>Hvilke former kan diskrimination, der findes</li>
+  <li>Hvor diskrimination kommer fra?</li>
+  <li>Hvilke konsekvenser det har, hvis diskrimination ikke stoppes?</li>
+</ul>
 
-Om RAPOLITICS:
+<p>Om RAPOLITICS:</p>
 
-RAPOLITICS arbejder med urbane musikalske udtryk, anerkendende kommunikation og demokratisk bevidstgørelse hos børn og unge i Danmark, Bolivia og Mellemøsten. RAPOLITICS søger at styrke børn og unges selvværd samt respekt og forståelse for andre gennem musik, politik og kommunikation og således modarbejde marginalisering og for youth empowerment på en konstruktiv og kreativ måde. RAPOLITICS arbejder med emner som ytringsfrihed, demokrati, diskrimination, revolution og medborgerskab gennem ord og musik. RAPOLITICS udarbejder undervisningsmaterialer og uddanner altid sine Rapolitics-coaches inden for alle relevante emner. I 2015 retter RAPOLITICS fokus mod diskrimination og hadforbrydelser mod minoritetsgrupper blandt borgere i København.',
+<p>RAPOLITICS arbejder med urbane musikalske udtryk, anerkendende kommunikation og demokratisk bevidstgørelse hos børn og unge i Danmark, Bolivia og Mellemøsten. RAPOLITICS søger at styrke børn og unges selvværd samt respekt og forståelse for andre gennem musik, politik og kommunikation og således modarbejde marginalisering og for youth empowerment på en konstruktiv og kreativ måde.</p>
+<p>RAPOLITICS arbejder med emner som ytringsfrihed, demokrati, diskrimination, revolution og medborgerskab gennem ord og musik. RAPOLITICS udarbejder undervisningsmaterialer og uddanner altid sine Rapolitics-coaches inden for alle relevante emner. I 2015 retter RAPOLITICS fokus mod diskrimination og hadforbrydelser mod minoritetsgrupper blandt borgere i København.</p>',
 			'teaser_image' => '24-rapolitics.jpg',
 			'freeplaces' => 20,
                         'uri' => '',
@@ -338,7 +343,7 @@ RAPOLITICS arbejder med urbane musikalske udtryk, anerkendende kommunikation og 
 			'title' => 'En NICE dag med bæredygtighed i modebranchen',
                         'subtitle' => '',
 			'description' => 'Klodens voksende befolkning forbruger ufattelige mængder tøj og tekstiler. Hvert år farves cirka 28 milliarder kilo tekstiler til mode- og tekstilindustrien, hvilket gør den globale mode- og tekstilindustri ansvarlig for 17 % af al industriel vandforurening. Dette er bare én af mange konsekvenser, som vores stigende tøjforbrug har, og med en stigende verdensbefolkning kan det få kolossale klimamæssige konsekvenser.
-Under Danish Fashion Institute er projektet NICE blevet etableret. NICE står for ”Nordic Initiative: Clean and Ethical”, og er et nordisk projekt, der arbejder på at gøre modeindustrien mere bæredygtig. I NICE’s workshop vil I lære mere om modeindustriens bagside og de initiativer der eksisterer, som kan gøre den mere bæredygtig og ansvarlig. I vil få lov til at udarbejde Jeres bud på en oplysningskampagne, der kan viderebringe den nylige viden I besidder til de danske forbrugere.',
+<p>Under Danish Fashion Institute er projektet NICE blevet etableret. NICE står for ”Nordic Initiative: Clean and Ethical”, og er et nordisk projekt, der arbejder på at gøre modeindustrien mere bæredygtig. I NICE’s workshop vil I lære mere om modeindustriens bagside og de initiativer der eksisterer, som kan gøre den mere bæredygtig og ansvarlig. I vil få lov til at udarbejde Jeres bud på en oplysningskampagne, der kan viderebringe den nylige viden I besidder til de danske forbrugere.</p>',
 			'teaser_image' => '26-NiceFashion.png',
 			'freeplaces' => 40,
                         'uri' => '',
@@ -360,8 +365,8 @@ Der vil også være mulighed for at høre en af medarbejderne fra Kofoeds Kælde
 			'title' => 'Menneskebiblioteket',
                         'subtitle' => '',
 			'description' => 'Mød bøgerne i Menneskebiblioteket. Det er mennesker, som du og jeg, men på grund af deres livsstil, overbevisning, etnicitet, handicap, seksualitet, sociale status eller beskæftigelse, er de ofte genstand for fordomme og stereotyper.
-Alle bøger stiller i udgangspunktet frivilligt op til udlån og dialog, for at stille deres viden, erfaring, holdninger og oplevelser til rådighed for læseren. Det giver muligheden for et unikt indblik i et andet menneskes liv og en indsigt i det menneskes livsvilkår. En indsigt vi ved af erfaring, typisk resulterer i en bedre forståelse.
-Lån dem på Menneskebiblioteket og opdag, at her er mere gemt end omslaget giver indtryk af. “Rigtige mennesker, rigtige samtaler”!',
+<p>Alle bøger stiller i udgangspunktet frivilligt op til udlån og dialog, for at stille deres viden, erfaring, holdninger og oplevelser til rådighed for læseren. Det giver muligheden for et unikt indblik i et andet menneskes liv og en indsigt i det menneskes livsvilkår. En indsigt vi ved af erfaring, typisk resulterer i en bedre forståelse.</p>
+<p>Lån dem på Menneskebiblioteket og opdag, at her er mere gemt end omslaget giver indtryk af. “Rigtige mennesker, rigtige samtaler”!</p>',
 			'teaser_image' => '28a-menneskebibliotek.jpg',
 			'freeplaces' => 55,
                         'uri' => '',
@@ -371,12 +376,15 @@ Lån dem på Menneskebiblioteket og opdag, at her er mere gemt end omslaget give
 			'title' => 'Islam, jødedom og kristendom - er vi så forskellige?',
                         'subtitle' => '',
 			'description' => 'Din Tro – Min Tro tilbyder besøg af en jøde, en kristen og en muslim, der fortæller om forskelle og ligheder mellem de tre religioner
-Oplægsholderne vil især komme ind på:
-● Hvad de tror på
-● Hvad de er fælles om
-● Hvad der adskiller dem
-Efter teamets korte oplæg inviteres der til dialog, hvor publikum kan spørge om alt vedrørende de tre religioner. Oplægsholderne forholder sig dog ikke til diverse politiske standpunkter og konflikter.
-Din Tro – Min Tro til formål at skabe dialog og viden om de 3 monoteistiske religioners baggrund og traditioner med vægt på forståelse og respekt for det enkelte menneskes valg.',
+<p>Oplægsholderne vil især komme ind på:</p>
+<ul>
+  <li>Hvad de tror på</li>
+  <li>Hvad de er fælles om</li>
+  <li>Hvad der adskiller dem</li>
+</ul>
+
+<p>Efter teamets korte oplæg inviteres der til dialog, hvor publikum kan spørge om alt vedrørende de tre religioner. Oplægsholderne forholder sig dog ikke til diverse politiske standpunkter og konflikter.</p>
+<p>Din Tro – Min Tro til formål at skabe dialog og viden om de 3 monoteistiske religioners baggrund og traditioner med vægt på forståelse og respekt for det enkelte menneskes valg.</p>',
 			'teaser_image' => '29-dintro.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -415,7 +423,7 @@ I denne workshop arbejder vi innovativt ved hjælp af Index’ kompas, og I skal
                         'subtitle' => '',
 			'description' => 'Det er almenmenneskeligt at have fordomme om andre. Nogle af fordommene er vi bevidste om, andre styrer vores adfærd, uden vi rigtigt er klar over det. Det gælder ikke mindst de fordomme, som gennem tiden er blevet til myter, dvs. en slags ”sandheder” om andre. 
 
-Workshoppen undersøger, hvordan fordomme, myter og diskrimination opstår og virker mellem mennesker, generelt men også konkret i din hverdag på Ørestad Gymnasium. Hvornår risikerer fordomme at udvikle sig til diskrimination og til konflikter? Og hvordan kan du gøre en forskel ved at ophæve og forandre fordomme og myter gennem dialog? Formålet er at give dig viden om fordomme generelt, indsigt i dine egne fordomme og inspiration til god konflikthåndtering gennem dialog.',
+<p>Workshoppen undersøger, hvordan fordomme, myter og diskrimination opstår og virker mellem mennesker, generelt men også konkret i din hverdag på Ørestad Gymnasium. Hvornår risikerer fordomme at udvikle sig til diskrimination og til konflikter? Og hvordan kan du gøre en forskel ved at ophæve og forandre fordomme og myter gennem dialog? Formålet er at give dig viden om fordomme generelt, indsigt i dine egne fordomme og inspiration til god konflikthåndtering gennem dialog.</p>',
 			'teaser_image' => '32-cfk.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
