@@ -45,11 +45,14 @@ Masser af kærlighed fra Amnesty­gruppen Humørikonet heart Humørikonet heart'
 			'wstype' => 'od.have.job',
 			'title' => 'Operation Dagsværk workshop (du finder selv job)',
                         'subtitle' => '',
-			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en
-specifik sag via en oplysningskampagne. Dette munder ud i den store Operation 
-Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge 
-ind til årets sag.',
-			'teaser_image' => 'dagsvaerk.png',
+			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en specifik sag via en oplysningskampagne. Dette munder ud i den store Operation Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge ind til årets sag. I år er projektet “Unge i Somaliland skal have en stemme!”
+
+Undertrykkelse, diskrimination og tvangsægteskaber er en del af hverdagen for unge i Somaliland. Derfor vil Operation Dagsværk og SOS Børnebyerne give 15.000 gymnasieelever i Somaliland viden og redskaber til at forme deres egen fremtid.   
+
+Børn og unge udgør størstedelen af befolkningen i Somaliland. Alligevel er det udelukkende gamle mænd, som sidder solidt på magten. Unge fratages muligheden for uddannelse, bliver tvangsgift og unge piger bliver omskåret og får ofte deres første barn allerede som teenagere. Mange unge har derfor aldrig lært at ytre sig, have en mening eller stå ved den.
+
+Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland en stemme, så de kan lære at sige fra. Projektet vil starte elevråd på ti gymnasier i Somaliland og gennem aktiviteter på gymnasierne træne 15.000 elever i deres rettigheder, viden om uddannelsespolitik og i at føre kampagner med gennemslagskraft, der rækker ud blandt unge i hele samfundet og ind til magthaverne. Sammen vil Operation Dagsværk og SOS Børnebyerne skabe kritisk tænkende og velorganiserede unge mennesker i Somaliland, der bliver talspersoner for hele deres generation.',
+			'teaser_image' => '',
 			'freeplaces' => 70,
                         'isODworkshop' => true,
                         'uri' => 'http://od.dk/',
@@ -61,11 +64,14 @@ ind til årets sag.',
 			'wstype' => 'od.want.job',
 			'title' => 'Operation Dagsværk workshop (vi finder job for dig)',
                         'subtitle' => '',
-			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en
-specifik sag via en oplysningskampagne. Dette munder ud i den store Operation 
-Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge 
-ind til årets sag.',
-			'teaser_image' => 'dagsvaerk.png',
+			'description' => 'Operation Dagsværk er en frivillig organisation af unge der hvert år sætter fokus på en specifik sag via en oplysningskampagne. Dette munder ud i den store Operation Dagsværk dag, hvor gymnasieelever fra hele landet arbejder en dag for at samle penge ind til årets sag. I år er projektet “Unge i Somaliland skal have en stemme!”
+
+Undertrykkelse, diskrimination og tvangsægteskaber er en del af hverdagen for unge i Somaliland. Derfor vil Operation Dagsværk og SOS Børnebyerne give 15.000 gymnasieelever i Somaliland viden og redskaber til at forme deres egen fremtid.   
+
+Børn og unge udgør størstedelen af befolkningen i Somaliland. Alligevel er det udelukkende gamle mænd, som sidder solidt på magten. Unge fratages muligheden for uddannelse, bliver tvangsgift og unge piger bliver omskåret og får ofte deres første barn allerede som teenagere. Mange unge har derfor aldrig lært at ytre sig, have en mening eller stå ved den.
+
+Derfor vil Operation Dagsværk og SOS Børnebyerne give ungdommen i Somaliland en stemme, så de kan lære at sige fra. Projektet vil starte elevråd på ti gymnasier i Somaliland og gennem aktiviteter på gymnasierne træne 15.000 elever i deres rettigheder, viden om uddannelsespolitik og i at føre kampagner med gennemslagskraft, der rækker ud blandt unge i hele samfundet og ind til magthaverne. Sammen vil Operation Dagsværk og SOS Børnebyerne skabe kritisk tænkende og velorganiserede unge mennesker i Somaliland, der bliver talspersoner for hele deres generation.',			
+			'teaser_image' => '',
 			'freeplaces' => 30,
                         'isODworkshop' => true,
                         'uri' => 'http://od.dk/',
