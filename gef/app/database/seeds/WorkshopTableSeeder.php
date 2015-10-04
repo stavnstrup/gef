@@ -29,12 +29,12 @@ tilmeldingen sammen med dit navn.',
 		Workshop::create(array(
 			'title' => 'Gør en forskel med Amnesty Youth',
                         'subtitle' => '',
-			'description' => 'Meld dig til Amnesty\'s workshop for at få en hyggelig dag, men menneskerettigheder og
+			'description' => 'Meld dig til Amnesty\'s workshop for at få en hyggelig dag med menneskerettigheder og
 kreativitet i fokus.
 Dagen starter ud med et oplæg fra Amnesty om deres aktuelle case, hvor man bliver sat ind i , hvad organisationen går ud på. Her efter vil i blive sat i gang med enten at skrive breve, lave plakater og andet hygge. Under hele dagen vil der køre en konkurrence, hvor der er en særlig præmie i spil.
-Hvis du er frisk på en hyggelig dag, med plakat­lavning og "Skriv for liv" så er dette workshoppen til dig!
+Hvis du er frisk på en hyggelig dag, med plakat-lavning og "Skriv for liv" så er dette workshoppen til dig!
 Håber vi ses!
-Masser af kærlighed fra Amnesty­gruppen Humørikonet heart Humørikonet heart',
+Masser af kærlighed fra Amnesty-gruppen Humørikonet heart Humørikonet heart',
 			'teaser_image' => '02-amnesty.png',
 			'freeplaces' => 30,
                         'uri' => 'http://amnesty.dk',
@@ -179,7 +179,8 @@ Alle kan være med - uanset om du kender til bæredygtighed eller ej.',
 			'title' => 'Afrikansk dans og trommespil og Frivillig i Ghana',
                         'subtitle' => '',
 			'description' => 'I denne workshop vil du lære ægte afrikansk dans og trommespil, som giver glæde og afstressning. I programmet er der også et oplæg om, hvordan man kan gøre en forskel som frivillig i Ghana. Som der står på sitet afrikanskdansk.dk: “Ghana og dens indbyggere er en fantastisk oplevelse. Ghana er et af de fredeligste lande i Afrika og indbyggerne er utrolig imødekommende, hjælpsomme og kærlige. (...) Som frivillig på vores projekt kan du nemlig få lov at prøve kræfter med lige netop dét, du brænder for. 
-Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passion for børn, elsker at være kreativ og praktisk, brænder for at undervise, er bidt af en computer eller noget helt andet, ja så har du muligheden for at få det afprøvet nu.”',
+Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passion for børn, elsker at være kreativ og praktisk, brænder for at undervise, er bidt af en computer eller noget helt andet, ja så har du muligheden for at få det afprøvet nu.”
+På OEG gør en forskel-dagen skal du dog først og fremmest danse og spille på tromme. Alle kan være med!',
 			'teaser_image' => '13-sawa.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -199,7 +200,7 @@ Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passio
 		Workshop::create(array(
 			'title' => 'Fanger der synger og fortæller - og sangskrivning',
                         'subtitle' => '',
-			'description' => 'Denne workshop er for dig, der gerne vil lære mere om, hvordan man formulerer personlige sang- /raptekster og sætter musik til disse. Workshoppen  indledes med at korlederen for “Fangekoret”, Louise Adrian, fortæller om, hvordan det at være med i fangekoret gør en forskel for indsatte og tidligere indsatte i Vridsløselille Statsfængsel. Herefter synger og rapper 2­3 kriminelle om deres liv og giver jer derved indblik i hvordan livet er som indsat og kriminel. Efter frokost tager I selv arbejdshandskerne på og udarbejder tekster med udgangspunkt i eget liv. Musiker og sangskriver, Benjamin Aggerbæk, guider jer i god tekstskrivning og sange, som I sætter musik til.',
+			'description' => 'Denne workshop er for dig, der gerne vil lære mere om, hvordan man formulerer personlige sang- /raptekster og sætter musik til disse. Workshoppen  indledes med at korlederen for “Fangekoret”, Louise Adrian, fortæller om, hvordan det at være med i fangekoret gør en forskel for indsatte og tidligere indsatte i Vridsløselille Statsfængsel. Herefter synger og rapper 2-3 kriminelle om deres liv og giver jer derved indblik i hvordan livet er som indsat og kriminel. Efter frokost tager I selv arbejdshandskerne på og udarbejder tekster med udgangspunkt i eget liv. Musiker og sangskriver, Benjamin Aggerbæk, guider jer i god tekstskrivning og sange, som I sætter musik til.',
 			'teaser_image' => '15-benjamin.jpg',
 			'freeplaces' => 20,
                         'uri' => '',
@@ -219,7 +220,7 @@ Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passio
 		Workshop::create(array(
 			'title' => 'Varme til krop og sjæl',
                         'subtitle' => '',
-			'description' => 'Sammen med AVITAE­gruppen, kan du være med til at få et indblik i middelalderens køkken, være med til at lave god suppe og godt brød, som man kunne have spist den gang. Når maden er lavet, skal vi dele suppen ud ved metroen eller biblioteket med ordene "Varme til krop og sjæl". Vi skal have brandet at vi vil glæde folk med en varm kop suppe på en kold novemberdag, og lidt om hvordan den er blevet til. Så kom frisk til en varm workshop til glæde for krop og sjæl.
+			'description' => 'Sammen med AVITAE-gruppen, kan du være med til at få et indblik i middelalderens køkken, være med til at lave god suppe og godt brød, som man kunne have spist den gang. Når maden er lavet, skal vi dele suppen ud ved metroen eller biblioteket med ordene "Varme til krop og sjæl". Vi skal have brandet at vi vil glæde folk med en varm kop suppe på en kold novemberdag, og lidt om hvordan den er blevet til. Så kom frisk til en varm workshop til glæde for krop og sjæl.
 Link til Avitae gruppens ekskursion til Middelaldercenteret ved Nykøbing Falster, hvor vi lærte at lave mad som i middelalderen her',
 			'teaser_image' => '17-varme.jpg',
 			'freeplaces' => 30,
@@ -234,7 +235,7 @@ Link til Avitae gruppens ekskursion til Middelaldercenteret ved Nykøbing Falste
                         'subtitle' => '',
 			'description' => 'Aldin Lemes er bosnier og er født i byen Srebrenica. Under krigen i Bosnien fandt der i 1995 et folkedrab sted i Srebrenica, hvor mere end 7.500 drenge og mænd blev dræbt. Aldin overværede som barn folkedrabet og så med sine egne øjne landsbyer blive brændt ned. I sit foredrag fortæller han om, hvilken rolle disse billeder spiller for ham i dag, og hvordan man kommer videre med sit liv efter at have været vidne til et folkedrab.
 
-I denne workshop hører deltagerne først et oplæg ved Aldin. Herefter ser vi filmen "Hotel Rwanda”, der omhandler folkedrabet i Rwanda i 1994. Efter disse to vinker på folkedrab diskuteres folkedrab og menneskerettigheder, og vi skal gøre OEG opmærksom på disse. Vi bruger vores kreativitet til formidling af menneskerettighederne, fx. med posters, happenings eller innovativ formidling. Der bliver brug for at være kreativ. Vi kræver ikke andet end at have lyst til at deltage i et bragende spændende oplæg og ville udfordre OEG­folket!',
+I denne workshop hører deltagerne først et oplæg ved Aldin. Herefter ser vi filmen "Hotel Rwanda”, der omhandler folkedrabet i Rwanda i 1994. Efter disse to vinker på folkedrab diskuteres folkedrab og menneskerettigheder, og vi skal gøre OEG opmærksom på disse. Vi bruger vores kreativitet til formidling af menneskerettighederne, fx. med posters, happenings eller innovativ formidling. Der bliver brug for at være kreativ. Vi kræver ikke andet end at have lyst til at deltage i et bragende spændende oplæg og ville udfordre OEG-folket!',
 
 			'teaser_image' => '18b-srebrenica-djecak-tabuti-afpgetty.jpg',
 			'freeplaces' => 40,
@@ -258,11 +259,11 @@ Vi glæder os til at se jer til en kreativ dag med fokus på logoer og symboler,
 
                 // Workshop 20
 		Workshop::create(array(
-			'title' => 'PR-workshop: Produktion af trailer for GEF i TV­studiet',
+			'title' => 'PR-workshop: Produktion af trailer for GEF i TV-studiet',
                         'subtitle' => '',
-			'description' => 'Har du lyst til at komme ind i kontrolrummet i TV­studiet og prøve at være producer, billedmixer eller titler? Eller måske prøve at styre ét af kameraerne i studiet eller være vært foran kameraet? Så skal du tilmelde dig denne workshop, hvor vi skal producere en trailer til næste års Gør en forskel­dag.
-Du behøver ikke at være medie+­elev eller have nogen praktisk erfaring med tv-produktion, da elever fra den erfarne samlingsredaktion vil guide og forklare alt undervejs – du skal bare have lyst til at kaste dig ud i det med entusiasme og gå­på­mod!
-Vi håber at se dig til en dag med praktisk produktion i TV­studiet.',
+			'description' => 'Har du lyst til at komme ind i kontrolrummet i TV-studiet og prøve at være producer, billedmixer eller titler? Eller måske prøve at styre ét af kameraerne i studiet eller være vært foran kameraet? Så skal du tilmelde dig denne workshop, hvor vi skal producere en trailer til næste års Gør en forskel-dag.
+Du behøver ikke at være medie+-elev eller have nogen praktisk erfaring med tv-produktion, da elever fra den erfarne samlingsredaktion vil guide og forklare alt undervejs – du skal bare have lyst til at kaste dig ud i det med entusiasme og gå-på-mod!
+Vi håber at se dig til en dag med praktisk produktion i TV-studiet.',
 			'teaser_image' => '',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -273,9 +274,9 @@ Vi håber at se dig til en dag med praktisk produktion i TV­studiet.',
 			'title' => 'Rok og rul på plejehjemmet Søster Sophies Minde',
                         'subtitle' => '',
 			'description' => 'Kom og vær med i Diakonissestiftelsens frivillige fællesskab for en dag. Her kan du være med til at gøre en forskel i:
-VærkstedsLoppen (4­6 pers). I værkstedet mødes frivillige om at reparere, istandsætte og re­designe. Vi bruger vores hænder, vores evner og vores tid til gavn og glæde for andre.
-Tøjsortering i genbrugsbutikken Loppeshoppen(4­6 pers). I butikkerne sortere vi til salg i vores egen butik, til Frelsens Hær, til fibergenbrug og til kreative genbrugsværksteder. 
-Tre på tur (4­6 pers). Et rickshaw­cykeltilbud til vores beboere på plejehjemmet Søster Sophies Minde. Turene er med til at give de ældre vind i håret og en masse oplevelser og indtryk, de ellers ikke har mulighed for at få. Tit giver turene på cyklen god tid og mulighed for snakke om alt mellem himmel og jord.',
+VærkstedsLoppen (4-6 pers). I værkstedet mødes frivillige om at reparere, istandsætte og re-designe. Vi bruger vores hænder, vores evner og vores tid til gavn og glæde for andre.
+Tøjsortering i genbrugsbutikken Loppeshoppen(4-6 pers). I butikkerne sortere vi til salg i vores egen butik, til Frelsens Hær, til fibergenbrug og til kreative genbrugsværksteder. 
+Tre på tur (4-6 pers). Et rickshaw-cykeltilbud til vores beboere på plejehjemmet Søster Sophies Minde. Turene er med til at give de ældre vind i håret og en masse oplevelser og indtryk, de ellers ikke har mulighed for at få. Tit giver turene på cyklen god tid og mulighed for snakke om alt mellem himmel og jord.',
 			'teaser_image' => '21-sofie.jpg',
 			'freeplaces' => 30,
                         'uri' => '',
@@ -286,8 +287,8 @@ Tre på tur (4­6 pers). Et rickshaw­cykeltilbud til vores beboere på plejehje
 			'title' => 'Vis en asylansøger DIT Danmark',
                         'subtitle' => '',
 			'description' => 'Dagen starter med at OEG elever i par planlægger en aktivitetsdag for 2 asylansøgere. Det kan være hjemmebesøg, sport, sightseeing i KBH osv. Herefter drager vi til Kongelunden Asylcenter, hvor 2 OEG’ere og 2 asylansøgere går sammen. 
-Asylansøgerne giver OEG’erne en lille rundvisning i deres gemakker på Kongelunden og herefter tager 4­mandsgupperne afsted på den planlagte aktivitetsdag ­ med OEG eleverne som guider. 
-Det er en fordel hvis du kan et mellemøstligt sprog på denne workshop ­ men det er absolut ikke et krav.',
+Asylansøgerne giver OEG’erne en lille rundvisning i deres gemakker på Kongelunden og herefter tager 4-mandsgupperne afsted på den planlagte aktivitetsdag - med OEG eleverne som guider. 
+Det er en fordel hvis du kan et mellemøstligt sprog på denne workshop - men det er absolut ikke et krav.',
 			'teaser_image' => '',
 			'freeplaces' => 25,
                         'uri' => '',
@@ -298,7 +299,7 @@ Det er en fordel hvis du kan et mellemøstligt sprog på denne workshop ­ men d
 			'title' => 'Social Media love-storm',
                         'subtitle' => '',
 			'description' => 'På den her workshop bliver din opgave at dække OEG Gør En Forskel til de sociale medier.
-Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en kampagne sammen sammen på forskellige sociale medier, og hvordan man slår igennem med ”en god sag”. Vi bruger denne viden til at udtænke en plan for, hvordan man bedst kan gøre opmærksom på ”OEG Gør En Forskel”­dagen, og det arbejde, som eleverne laver. Herefter bliver I sluppet løs og tager ud til forskellige workshops og arrangementer, for at finde de gode historier og de bedste billeder, som vi publicerer via skolens Facebook, Instagram, hjemmeside – og hvem ved, måske hopper vi også med på Snapchat-vognen!',
+Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en kampagne sammen sammen på forskellige sociale medier, og hvordan man slår igennem med ”en god sag”. Vi bruger denne viden til at udtænke en plan for, hvordan man bedst kan gøre opmærksom på ”OEG Gør En Forskel”-dagen, og det arbejde, som eleverne laver. Herefter bliver I sluppet løs og tager ud til forskellige workshops og arrangementer, for at finde de gode historier og de bedste billeder, som vi publicerer via skolens Facebook, Instagram, hjemmeside – og hvem ved, måske hopper vi også med på Snapchat-vognen!',
 			'teaser_image' => '',
 			'freeplaces' => 20,
                         'uri' => '',
@@ -308,14 +309,14 @@ Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en
 		Workshop::create(array(
 			'title' => 'Rapworkshop - sæt ord på diskrimination',
                         'subtitle' => '',
-			'description' => 'Kreativ rap­workshop, hvor I arbejder med at skrive og performe rap om diskrimination og hadforbrydelser. RAPOLITICS er en udtryksform, som kan bruges til at få sat ord på diskrimination og hadforbrydelser. Arrangementet består af en række praktiske øvelser, der giver de unge tilskuere en meget deltagende rolle. Publikum diskuterer, reflekterer og udfører rap­teksterne.  De unge facilitatorer sikrer, at publikum får mulighed for at beskæftige sig med alvorlige emner på kreativ vis. Det kan være emner, som kommer ind på: Hvad diskrimination er
+			'description' => 'Kreativ rap-workshop, hvor I arbejder med at skrive og performe rap om diskrimination og hadforbrydelser. RAPOLITICS er en udtryksform, som kan bruges til at få sat ord på diskrimination og hadforbrydelser. Arrangementet består af en række praktiske øvelser, der giver de unge tilskuere en meget deltagende rolle. Publikum diskuterer, reflekterer og udfører rap-teksterne.  De unge facilitatorer sikrer, at publikum får mulighed for at beskæftige sig med alvorlige emner på kreativ vis. Det kan være emner, som kommer ind på: Hvad diskrimination er
 ● Hvilke former kan diskrimination, der findes
 ● Hvor diskrimination kommer fra?
 ● Hvilke konsekvenser det har, hvis diskrimination ikke stoppes?
 
 Om RAPOLITICS:
 
-RAPOLITICS arbejder med urbane musikalske udtryk, anerkendende kommunikation og demokratisk bevidstgørelse hos børn og unge i Danmark, Bolivia og Mellemøsten. RAPOLITICS søger at styrke børn og unges selvværd samt respekt og forståelse for andre gennem musik, politik og kommunikation og således modarbejde marginalisering og for youth empowerment på en konstruktiv og kreativ måde. RAPOLITICS arbejder med emner som ytringsfrihed, demokrati, diskrimination, revolution og medborgerskab gennem ord og musik. RAPOLITICS udarbejder undervisningsmaterialer og uddanner altid sine Rapolitics­coaches inden for alle relevante emner. I 2015 retter RAPOLITICS fokus mod diskrimination og hadforbrydelser mod minoritetsgrupper blandt borgere i København.',
+RAPOLITICS arbejder med urbane musikalske udtryk, anerkendende kommunikation og demokratisk bevidstgørelse hos børn og unge i Danmark, Bolivia og Mellemøsten. RAPOLITICS søger at styrke børn og unges selvværd samt respekt og forståelse for andre gennem musik, politik og kommunikation og således modarbejde marginalisering og for youth empowerment på en konstruktiv og kreativ måde. RAPOLITICS arbejder med emner som ytringsfrihed, demokrati, diskrimination, revolution og medborgerskab gennem ord og musik. RAPOLITICS udarbejder undervisningsmaterialer og uddanner altid sine Rapolitics-coaches inden for alle relevante emner. I 2015 retter RAPOLITICS fokus mod diskrimination og hadforbrydelser mod minoritetsgrupper blandt borgere i København.',
 			'teaser_image' => '24-rapolitics.jpg',
 			'freeplaces' => 20,
                         'uri' => '',
@@ -336,7 +337,7 @@ RAPOLITICS arbejder med urbane musikalske udtryk, anerkendende kommunikation og 
 		Workshop::create(array(
 			'title' => 'En NICE dag med bæredygtighed i modebranchen',
                         'subtitle' => '',
-			'description' => 'Klodens voksende befolkning forbruger ufattelige mængder tøj og tekstiler. Hvert år farves cirka 28 milliarder kilo tekstiler til mode­ og tekstilindustrien, hvilket gør den globale mode­ og tekstilindustri ansvarlig for 17 % af al industriel vandforurening. Dette er bare én af mange konsekvenser, som vores stigende tøjforbrug har, og med en stigende verdensbefolkning kan det få kolossale klimamæssige konsekvenser.
+			'description' => 'Klodens voksende befolkning forbruger ufattelige mængder tøj og tekstiler. Hvert år farves cirka 28 milliarder kilo tekstiler til mode- og tekstilindustrien, hvilket gør den globale mode- og tekstilindustri ansvarlig for 17 % af al industriel vandforurening. Dette er bare én af mange konsekvenser, som vores stigende tøjforbrug har, og med en stigende verdensbefolkning kan det få kolossale klimamæssige konsekvenser.
 Under Danish Fashion Institute er projektet NICE blevet etableret. NICE står for ”Nordic Initiative: Clean and Ethical”, og er et nordisk projekt, der arbejder på at gøre modeindustrien mere bæredygtig. I NICE’s workshop vil I lære mere om modeindustriens bagside og de initiativer der eksisterer, som kan gøre den mere bæredygtig og ansvarlig. I vil få lov til at udarbejde Jeres bud på en oplysningskampagne, der kan viderebringe den nylige viden I besidder til de danske forbrugere.',
 			'teaser_image' => '26-NiceFashion.png',
 			'freeplaces' => 40,
@@ -424,7 +425,7 @@ Workshoppen undersøger, hvordan fordomme, myter og diskrimination opstår og vi
 		Workshop::create(array(
 			'title' => 'Kage som alle kan tage og smage. Vil du bage?',
                         'subtitle' => '',
-			'description' => 'Skal din indre bager se dagens lys? Har du lyst til at gøre en forskel for dine medstuderende med kage­treat når GEF dagen er omme? I denne workshop mødes vi og finder i fællesskab opskrifter på lækre kager. Vi tager sammen ud og køber ingredienser og herefter fordeler vi os i grupper, der tager hjem til de workshopdeltagere der bor tæt på skolen og bager lækre kager. Vi handler udfra princippet om ingen madspild. Ved 14.30 tiden mødes vi med vores kager i OEG’s foyer og her serverer vi smagsprøver til folk, når deres workshops slutter. Vi sætter raslebøsser op, sådan at kagespiserne kan donere et selvvalgt beløb, når de snupper kage. Det indsamlede beløb går til Røde Kors. NB: Det er en fordel, hvis du bor tæt på skolen til denne workshop, men det er ikke et krav.',
+			'description' => 'Skal din indre bager se dagens lys? Har du lyst til at gøre en forskel for dine medstuderende med kage-treat når GEF dagen er omme? I denne workshop mødes vi og finder i fællesskab opskrifter på lækre kager. Vi tager sammen ud og køber ingredienser og herefter fordeler vi os i grupper, der tager hjem til de workshopdeltagere der bor tæt på skolen og bager lækre kager. Vi handler udfra princippet om ingen madspild. Ved 14.30 tiden mødes vi med vores kager i OEG’s foyer og her serverer vi smagsprøver til folk, når deres workshops slutter. Vi sætter raslebøsser op, sådan at kagespiserne kan donere et selvvalgt beløb, når de snupper kage. Det indsamlede beløb går til Røde Kors. NB: Det er en fordel, hvis du bor tæt på skolen til denne workshop, men det er ikke et krav.',
 			'teaser_image' => '',
 			'freeplaces' => 32,
                         'uri' => '',
