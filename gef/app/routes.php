@@ -7,19 +7,19 @@
 // Midlertidig Homepage 
 // ------------------------------------
 
-/*
+
 Route::get('/', function()
 {
 	return View::make('gef');
 });
-*/
+
 
 // ------------------------------------
 // Homepage (with all workshops listed)
 // ------------------------------------
 
 
-Route::get('/', function()
+Route::get('/temp', function()
 {
 	$workshops =  Workshop::get(array('id', 'title','freeplaces'));
 	return View::make('home', compact('workshops'));
