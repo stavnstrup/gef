@@ -16,6 +16,6 @@
   </head> 
   <body> 
     <div id="floater"></div> 
-    <div id="content">OEG - Gør en forskel.<br/>Pga. af tekniske problemer er tilmeldingen midlertidigt lukket. Vi åbner igen for tilmeldinger<br />onsdag d. 8. oktober</div> 
+    <div id="content">OEG - Gør en forskel - 2015<br/>Vi åbner for tilmeldinger<br />tirdag d. 6. oktober</div> 
   </body> 
  </html>
