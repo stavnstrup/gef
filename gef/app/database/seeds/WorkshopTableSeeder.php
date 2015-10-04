@@ -183,7 +183,7 @@ Du er selv med til at tilrettelægge dit arbejdsprogram. Har du f.eks. en passio
 		Workshop::create(array(
 			'title' => 'Little Big Help',
                         'subtitle' => '',
-			'description' => 'Deltag i denne workshop, hvis du vil møde en sand ildsjæl som for 7 år siden forlod en fantastisk karriere for at tage til Indien og starte sin egen velgørenhedsorganisation LittleBigHelp som i dag hjælper over 500 børn og kvinder. Bliv inspireret og provokeret til at udfordre din egen komfortzone i dit liv... Mød også indiske Mercy Barla som arbejder for LittleBigHelp i Kolkata og som vil fortælle om forskellen på at vokse op I Danmark og Indien. Kom til vores workshop hvis du tør og har mod, og bliv væk hvis du har rygsøjle som en regnorm... Du vil gå herfra med ny inspiration og fremover værdsætte i højere grad at du er født i Denmark (eller andedamnen) som vi kalder den.',
+			'description' => 'Deltag i denne workshop, hvis du vil møde en sand ildsjæl som for 7 år siden forlod en fantastisk karriere for at tage til Indien og starte sin egen velgørenhedsorganisation LittleBigHelp som i dag hjælper over 500 børn og kvinder. Bliv inspireret og provokeret til at udfordre din egen komfortzone i dit liv... Mød også indiske Mercy Barla som arbejder for LittleBigHelp i Kolkata og som vil fortælle om forskellen på at vokse op I Danmark og Indien. Kom til vores workshop hvis du tør og har mod, og bliv væk hvis du har rygsøjle som en regnorm... Du vil gå herfra med ny inspiration og fremover værdsætte i højere grad at du er født i Denmark eller andedammen, som vi kalder den.',
 			'teaser_image' => '',
 			'freeplaces' => 30,
                         'uri' => '',
