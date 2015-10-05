@@ -4,9 +4,12 @@
 
 @section('body')
 
+
+
 <div class="wsblocks">
   <div class="row">
     <div class="small-12 columns">
+      <p>Tilmeld dig én af nedenstående workshops. Der er åbent for tilmelding fra tirsdag d. 6. til fredag d. 9. oktober.</p>
       <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
         @foreach($workshops as $ws)
         <li>
