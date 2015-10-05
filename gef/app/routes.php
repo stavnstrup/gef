@@ -45,7 +45,8 @@ Route::get('deltagere/{wid}', function($wid)
 Route::get('workshop/{wid}', function($wid)
 {
 	$ws =  Workshop::find($wid);
-	return View::make('workshop', compact('ws'));
+	$deltager = Pupil::where('workshop_id', '=', $wid)->count();
+	return View::make('workshop', compact('ws', 'deltager'));
 });
 
 
