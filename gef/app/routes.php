@@ -8,7 +8,7 @@
 // ------------------------------------
 
 
-Route::get('/', function()
+Route::get('/old', function()
 {
 	return View::make('gef');
 });
@@ -19,7 +19,7 @@ Route::get('/', function()
 // ------------------------------------
 
 
-Route::get('/temp', function()
+Route::get('/', function()
 {
 	$workshops =  Workshop::get(array('id', 'title','freeplaces'));
 	return View::make('home', compact('workshops'));
