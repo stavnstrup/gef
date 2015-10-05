@@ -302,7 +302,7 @@ Asylansøgerne giver OEG’erne en lille rundvisning i deres gemakker på Kongel
 			'description' => 'På den her workshop bliver din opgave at dække OEG Gør En Forskel til de sociale medier.
 <p>Workshoppen bliver indledt med, at vi kigger nærmere på, hvordan man skruer en kampagne sammen sammen på forskellige sociale medier, og hvordan man slår igennem med ”en god sag”.</p>
 <p>Vi bruger denne viden til at udtænke en plan for, hvordan man bedst kan gøre opmærksom på ”OEG Gør En Forskel”-dagen, og det arbejde, som eleverne laver. Herefter bliver I sluppet løs og tager ud til forskellige workshops og arrangementer, for at finde de gode historier og de bedste billeder, som vi publicerer via skolens Facebook, Instagram, hjemmeside – og hvem ved, måske hopper vi også med på Snapchat-vognen!</p>',
-			'teaser_image' => '',
+			'teaser_image' => '23-media.jpg',
 			'freeplaces' => 20,
                         'uri' => '',
 		));
