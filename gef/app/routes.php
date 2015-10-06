@@ -117,11 +117,11 @@ Route::post('tilmelding/{wid}', array('before' => 'csrf', function($wid)
 
     $data = Input::All();
 
-//        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
+//        'pupilid' => 'required|regex:/^[1-3][a-f,h-p]\s[0-3][0-9]$/',
 
 
     $rules = array (
-        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
+        'pupilid' => 'required|regex:/^[1-3][a-f,h-p]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
 //        'wid' => 'required',
@@ -189,7 +189,7 @@ Route::post('soldat/tilmelding', array('before' => 'csrf', function()
     $ws = Workshop::find(1);
 
     $rules = array (
-        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
+        'pupilid' => 'required|regex:/^[1-3][a-f,h-p]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'zip' => array('required', 'size:4'),
@@ -274,7 +274,7 @@ Route::get('od/tilmelding/har/arbejde', function()
 // --------------------------------------------------------------------------
 
 
-//        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]\s[0-3][0-9]$/',
+//        'pupilid' => 'required|regex:/^[1-3][a-f,h-p]\s[0-3][0-9]$/',
 
 Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
 {
@@ -283,7 +283,7 @@ Route::post('od/tilmelding/har/arbejde', array('before' => 'csrf', function()
     $ws = Workshop::where('wstype','od.have.job')->first();
 
     $rules = array (
-        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
+        'pupilid' => 'required|regex:/^[1-3][a-f,h-p]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'phone' => array('required', 'size:8'),
@@ -363,7 +363,7 @@ Route::post('od/tilmelding', array('before' => 'csrf', function()
     $data = Input::All();
 
     $rules = array (
-        'pupilid' => 'required|regex:/^[1-3][a-f,h-o]$/',
+        'pupilid' => 'required|regex:/^[1-3][a-f,h-p]$/',
         'firstname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'lastname' => array('required', 'regex:/^\pL+(-|\s|\pL+)*$/'),
         'phone' => array('required', 'size:8'),
