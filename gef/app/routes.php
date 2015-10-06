@@ -59,6 +59,9 @@ Route::get('workshop/{wid}', function($wid)
 Route::get('tilmeldingsfordeling', function()
 {
 
+// N.B. Vær sikker på at regex i de enkelte tilmeldingsformularer kan
+// klare alle nye klasser.
+
    $pupilnumbers = array(
         "1a" => 32, "1b" => 30, "1c" => 30, "1d" => 28, "1e" => 30, "1f" => 30,
         "1h" => 21, "1i" => 30, "1j" => 26, "1k" => 31, "1l" => 31, "1m" => 27,
@@ -68,7 +71,9 @@ Route::get('tilmeldingsfordeling', function()
         "2n" => 31, "2o" => 32, "3a" => 26, "3b" => 30, "3c" => 21, "3d" => 18,
         "3e" => 23, "3f" => 28, "3h" => 26, "3i" => 25, "3j" => 18, "3k" => 15,
         "3l" => 31, "3m" => 30, "3n" => 17, "3o" => 24);
- 
+
+   
+
 
    $pupils = Pupil::all();
 
