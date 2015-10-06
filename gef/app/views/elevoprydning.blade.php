@@ -9,10 +9,9 @@
 
   <h2>Oprydning af elever</h2>
 
-  <p>Denne side bruges til at fjerne dobbelt tilmeldinger, selv om
-  dette ikk burde kunne ske fremover -fra mandag aften.</p>
+  <p>Denne side bruges til at fjerne dobbelttilmeldinger.</p>
 
-  <p>N.B. Pas på at musen ikke er placeret i Aktions søjlen, da I kan risikere
+  <p>N.B. Pas på at musen ikke er placeret i "aktions" søjlen, da I kan risikere
   at således slette elever ved et uheld.</p>
 
 
