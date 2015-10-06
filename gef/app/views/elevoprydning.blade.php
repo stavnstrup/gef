@@ -12,7 +12,7 @@
   <p>Denne side bruges til at fjerne dobbelttilmeldinger.</p>
 
   <p>N.B. Pas på at musen ikke er placeret i "aktions" søjlen, da I kan risikere
-  at således slette elever ved et uheld.</p>
+  at slette elever ved et uheld.</p>
 
 
   <table>
