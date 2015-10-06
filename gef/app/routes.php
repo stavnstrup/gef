@@ -470,7 +470,7 @@ Route::get('kun/for/you/know/who/tilmeldinger', function()
 // List alle tilmeldinger til forsvaret
 Route::get('kun/for/you/know/who/soldattilmeldinger', function()
 {
-    $pupils =  Pupil::where('workshop_id', '=', '1')->get();
+    $pupils =  Pupil::where('workshop_id', '=', '1')->orderBy('lastname','asc')->orderBy('firstname','asc')->get();
     return View::make('soldattilmeldinger', compact('pupils'));
 });
 

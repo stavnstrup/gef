@@ -15,8 +15,8 @@
     <table>
       <tr>
         <th>Klasse</th>
-        <th>Fornavn</th>
         <th>Efternavn</th>
+        <th>Fornavn</th>
         <th>Adresse</th>
         <th>Postnr</th>
         <th>By</th>
@@ -24,8 +24,8 @@
       @foreach($pupils as $p)
         <tr>
           <td>{{ $p->pupilid }}</td>
-          <td>{{ $p->firstname }}</td>
           <td>{{ $p->lastname }}</td>
+          <td>{{ $p->firstname }}</td>
           <td>{{ $p->road }}</td>
           <td>{{ $p->zip }}</td>
           <td>{{ $p->town }}</td>
