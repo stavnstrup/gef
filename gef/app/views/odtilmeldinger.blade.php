@@ -27,14 +27,14 @@
           <td>{{ $p->pupilid }}</td>
           <td>{{ $p->lastname }}</td>
           <td>{{ $p->firstname }}</td>
-@if ($p->workshop_id == 6)
+@if ($p->workshop_id == 3)
   <td>Ja</td>
 @else
   <td>Nej</td>
 @endif
           <td>{{ $p->phone }}</td>
           <td>{{ $p->email }}</td>
-@if ($p->workshop_id == 6)
+@if ($p->workshop_id == 3)
   <td>{{$p->workplace}}</td>
 @else
   <td/>
