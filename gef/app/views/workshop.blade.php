@@ -20,7 +20,7 @@
 {{$ws->description}}</p>
 
 
-@if ($ws->freeplaces >0)
+@if ($ws->freeplaces >0 &&  Config::get('gef.tilmelding.lukket') == false)
 @if ($ws->id == 1)
   <a href="/soldat/tilmelding/" class="button">
 @elseif ($ws->id == 3)
